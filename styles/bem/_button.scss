@@ -1,0 +1,40 @@
+.button {
+  align-items: center;
+  box-sizing: border-box;
+  border: none;
+  color: $clr-white;
+  cursor: pointer;
+  display: inline-flex;
+  text-decoration: none;
+  background-color: $x-clr-secondary;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: calculateRem(16);
+  height: calculateRem(44);
+  margin: 0;
+  border-radius: calculateRem(22);
+  padding: 0 calculateRem(20);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    border-radius: 0;
+  }
+
+  &--secondary-light {
+    background-color: transparent;
+    color: $clr-white;
+    border: calculateRem(2) solid $clr-white;
+    padding: 0 calculateRem(30);
+
+    &:hover {
+      background-color: transparent;
+      border-radius: 0;
+    }
+  }
+}
+
+a {
+  &.button {
+    color: $clr-white;
+  }
+}

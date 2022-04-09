@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700");
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Open Sans", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+// colours
+$clr-white: #fff;
+
+$palette-big-stone: #1c2e41;
+$palette-royal-blue: #3455db;
+$palette-boulder: #767676;
+$palette-wild-sand: #f4f4f4;
+
+$x-clr-primary: $palette-big-stone;
+$x-clr-secondary: $palette-royal-blue;
+$x-clr-text: $palette-boulder;
+$x-clr-border: $palette-wild-sand;
+$x-clr-border-dark: $palette-boulder;

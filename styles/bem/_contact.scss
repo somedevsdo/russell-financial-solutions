@@ -1,0 +1,117 @@
+.contact-form {
+  label {
+    display: block;
+    font-size: calculateRem(14);
+    color: $x-clr-primary;
+    font-weight: bold;
+    margin-bottom: calculateRem(4);
+  }
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: calculateRem(14);
+    border: 1px solid $x-clr-border-dark;
+    padding: calculateRem(10) calculateRem(12);
+    border-radius: calculateRem(4);
+    margin-bottom: calculateRem(24);
+  }
+
+  textarea {
+    height: calculateRem(180);
+  }
+
+  .button {
+    margin-top: calculateRem(24);
+    padding-left: calculateRem(32);
+    padding-right: calculateRem(32);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-form {
+    label {
+      font-size: calculateRem(18);
+      margin-bottom: calculateRem(10);
+    }
+
+    input,
+    textarea {
+      padding: calculateRem(14) calculateRem(18);
+    }
+  }
+}
+
+.contact-details {
+  border-top: calculateRem(2) solid $x-clr-border;
+  padding-top: calculateRem(20);
+
+  &__title {
+    color: $x-clr-primary;
+    font-size: calculateRem(22);
+    margin: 0;
+  }
+
+  &__text {
+    font-size: calculateRem(13);
+    color: $x-clr-text;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: calculateRem(20) 0 0;
+    padding: 0;
+  }
+
+  &__item {
+    align-items: center;
+    display: flex;
+    margin-bottom: calculateRem(20);
+  }
+
+  &__content {
+    margin-left: calculateRem(16);
+  }
+
+  &__icon {
+    width: calculateRem(22);
+    stroke: $x-clr-primary;
+  }
+
+  &__number {
+    color: $x-clr-primary;
+    font-size: calculateRem(13);
+    font-weight: bold;
+
+    &--secondary {
+      font-weight: normal;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-details {
+    border-top: 0;
+    padding-top: calculateRem(30);
+
+    &__title {
+      font-size: calculateRem(24)
+    }
+
+    &__text,
+    &__number {
+      font-size: calculateRem(15);
+    }
+
+    &__list {
+      border-top: calculateRem(4) solid $x-clr-border;
+      padding-top: calculateRem(16);
+    }
+
+    &__icon {
+      width: calculateRem(28);
+    }
+  }
+}

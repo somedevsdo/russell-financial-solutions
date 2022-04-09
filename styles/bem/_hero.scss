@@ -1,0 +1,325 @@
+.hero {
+    background-image: url("/images/stock/hero.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $clr-white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: calculateRem(106);
+  
+    &--mf {
+      margin-top: 0;
+      text-align: center;
+      background-image: url("/images/stock/row-of-houses.jpg");
+  
+      .hero__title {
+        padding-top: 1rem;
+      }
+  
+      h1, .hero__section, h2 {
+        width: 100%;
+      }
+    }
+  
+    &--main {
+      padding-bottom: calculateRem(20);
+    }
+  
+    &--home {
+      background-image: url("/images/stock/holding-house.jpg");
+    }
+  
+    &--mortgages {
+      background-image: url("/images/stock/row-of-houses.jpg");
+    }
+  
+    &--insurance {
+      background-image: url("/images/stock/family-walk.jpg");
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $x-clr-primary;
+      opacity: .8;
+    }
+  
+    &__title {
+      color: $clr-white;
+      font-size: calculateRem(24);
+      line-height: calculateRem(33);
+      margin: calculateRem(20) 0;
+      animation-delay: .5s;
+      z-index: 1;
+    }
+  
+    &__breadcrumb {
+      color: $clr-white;
+      font-size: calculateRem(20);
+      font-weight: regular;
+      margin: calculateRem(20) 0;
+      z-index: 1;
+    }
+  
+    &__breadcrumb-link {
+      text-decoration: none;
+      color: $clr-white;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    &__section {
+      z-index: 1;
+    }
+  
+    &__text {
+      color: $clr-white;
+      font-size: calculateRem(15);
+      margin: 0 0 calculateRem(16);
+      z-index: 1;
+    }
+  
+    &__buttons {
+      margin: calculateRem(20) 0 calculateRem(40);
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .hero {
+  
+      &--main {
+        padding-bottom: calculateRem(30);
+      }
+  
+      &__title {
+        padding-top: calculateRem(70);
+        font-size: calculateRem(42);
+        line-height: calculateRem(59);
+      }
+  
+      &__breadcrumb {
+        font-size: calculateRem(24);
+        padding-top: calculateRem(40);
+      }
+  
+      &__text {
+        font-size: calculateRem(18);
+      }
+  
+      &__buttons {
+        margin: calculateRem(20) 0 calculateRem(80);
+      }
+    }
+  }
+  
+  .top-row-container {
+    position: fixed;
+    top: 0;
+    background-color: $clr-white;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    transition: all 0.4s ease;
+  
+    &--no-fixed {
+      position: initial;
+    }
+  
+    &--small {
+      height: 30px;
+    }
+  
+    &--scrolled {
+      box-shadow: 0 0px 20px 0 rgba(40, 40, 40, 0.1);
+    }
+  }
+  
+  .logo-container {
+    align-items: center;
+    display: flex;
+  }
+  
+  .logo {
+    font-size: 0;
+    margin: calculateRem(12) 0;
+    width: calculateRem(140);
+  }
+  
+  .mobile-icon {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::after,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger-inner,
+  .hamburger-inner::after,
+  .hamburger-inner::before {
+    background-color: $x-clr-primary;
+  }
+  
+  .hamburger {
+    padding-bottom: 8px;
+  }
+  
+  .top-row--mf {
+    align-items: center;
+    display: flex;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .hero {
+      margin-top: calculateRem(100);
+  
+      &--mf {
+        margin-top: 0;
+        padding: 4rem 0 5rem;
+  
+        h1 {
+          font-size: calculateRem(60);
+        }
+  
+        h2 {
+          font-size: calculateRem(40);
+          margin-top: calculateRem(38);
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          font-weight: 600;
+        }
+      }
+    }
+  
+    .top-row-container {
+      height: calculateRem(100);
+    }
+  
+    .top-row {
+      align-items: center;
+      display: flex;
+    }
+  
+    .logo-container {
+      display: initial;
+    }
+  
+    .logo {
+      margin: calculateRem(18) 0;
+      width: calculateRem(200);
+    }
+  }
+  
+  .details-container {
+    display: none;
+  
+    &--mf {
+      display: initial;
+  
+      .details {
+        display: flex;
+        justify-content: flex-end;
+  
+        &__item {
+          align-items: center;
+          display: flex;
+          margin-left: calculateRem(40);
+        }
+  
+        &__address {
+          font-style: normal;
+        }
+  
+        &__primary {
+          color: $x-clr-primary;
+          font-size: calculateRem(13);
+          font-weight: bold;
+        }
+  
+        &__secondary {
+          color: $x-clr-text;
+          font-size: calculateRem(13);
+        }
+  
+        &__icon {
+          stroke: $x-clr-primary;
+          height: calculateRem(22);
+          margin-right: calculateRem(8);
+          width: calculateRem(22);
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .mobile-icon {
+      display: none;
+    }
+  
+    .details-container {
+      display: initial;
+    }
+  
+    .details {
+      display: flex;
+      justify-content: flex-end;
+  
+      &__item {
+        align-items: center;
+        display: flex;
+        margin-left: calculateRem(40);
+      }
+  
+      &__address {
+        font-style: normal;
+      }
+  
+      &__primary {
+        color: $x-clr-primary;
+        font-size: calculateRem(13);
+        font-weight: bold;
+      }
+  
+      &__secondary {
+        color: $x-clr-text;
+        font-size: calculateRem(13);
+      }
+  
+      &__icon {
+        stroke: $x-clr-primary;
+        height: calculateRem(22);
+        margin-right: calculateRem(8);
+        width: calculateRem(22);
+      }
+    }
+  }
+  
+  .telephone {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: calculateRem(8);
+  
+    &__icon {
+      width: calculateRem(20);
+      stroke: $x-clr-primary;
+      margin-right: calculateRem(8);
+    }
+  
+    &__number {
+      font-size: calculateRem(15);
+      font-weight: bold;
+      color: $x-clr-primary;
+      text-decoration: none;
+    }
+  }
+  

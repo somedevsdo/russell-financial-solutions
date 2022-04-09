@@ -1,0 +1,128 @@
+.footer-container {
+  background-color: #333333;
+  margin-top: calculateRem(48);
+  padding-bottom: calculateRem(120);
+}
+
+.footer {
+  &__logo {
+    display: block;
+    margin: calculateRem(24) auto;
+    width: calculateRem(160);
+  }
+
+  &__social {
+    border-top: 1px solid #707070;
+    padding-top: calculateRem(28);
+  }
+
+  &__social-title {
+    color: $clr-white;
+    font-size: calculateRem(16);
+    font-weight: bold;
+    margin: 0 0 calculateRem(8);
+  }
+
+  &__social-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__social-icon {
+    fill: #d5d5d5;
+    height: calculateRem(32);
+    margin-right: calculateRem(12);
+  }
+
+  &__section {
+    padding: calculateRem(28) calculateRem(20);
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: calculateRem(18);
+  }
+
+  &__link {
+    color: $clr-white;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: calculateRem(8);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__sub-link {
+    color: $clr-white;
+    text-decoration: none;
+    font-size: calculateRem(13);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__text {
+    font-size: calculateRem(13);
+    font-style: normal;
+    margin: 0 0 calculateRem(12);
+    color: #9b9b9b;
+
+    a {
+      color: #9b9b9b;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    &__logo {
+      margin: calculateRem(28) 0;
+      width: calculateRem(200);
+    }
+
+    &__social {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    &__social-title {
+      margin-bottom: calculateRem(20);
+    }
+  }
+}
+
+.disclaimer {
+  border-top: 1px solid #707070;
+  padding: calculateRem(28) 0;
+  margin-top: calculateRem(28);
+  text-align: center;
+
+  &__main {
+    font-size: calculateRem(11);
+    color: $clr-white;
+    margin: 0 0 calculateRem(22);
+  }
+
+  &__sub {
+    font-size: calculateRem(11);
+    color: #9b9b9b;
+    margin: 0 0 calculateRem(22);
+  }
+
+  &__sub-link {
+    color: #9b9b9b;
+  }
+}

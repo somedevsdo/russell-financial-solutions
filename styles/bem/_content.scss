@@ -1,0 +1,242 @@
+.page-content {
+  color: $x-clr-text;
+  margin: calculateRem(20) 0 calculateRem(40);
+  font-size: calculateRem(13);
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $x-clr-primary;
+  }
+
+  h1 {
+    font-size: calculateRem(32);
+  }
+
+  h2 {
+    font-size: calculateRem(20);
+  }
+
+  a {
+    color: $x-clr-secondary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a.button {
+    color: $clr-white;
+    margin-top: calculateRem(20);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-content {
+    font-size: calculateRem(15);
+
+    h1 {
+      font-size: calculateRem(40);
+    }
+
+    h2 {
+      font-size: calculateRem(28);
+    }
+  }
+}
+
+.pre-load {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  background-color: $clr-white;
+  z-index: 2000;
+  justify-content: center;
+}
+
+.text-row {
+  text-align: center;
+  margin: calculateRem(40) 0;
+
+  &--emphasis {
+    margin-top: calculateRem(10);
+  }
+
+  &__title {
+    color: $x-clr-primary;
+    font-size: calculateRem(15);
+    margin: 0 0 calculateRem(20);
+  }
+
+  &__paragraph {
+    color: $x-clr-text;
+    font-size: calculateRem(13);
+    margin-bottom: calculateRem(28);
+
+    &--emphasis {
+      color: $x-clr-primary;
+      font-size: calculateRem(18);
+      font-weight: 600;
+    }
+  }
+
+  &__divider {
+    width: 60%;
+    height: calculateRem(3);
+    background-color: $x-clr-border;
+    border: 0;
+    margin-top: calculateRem(32);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text-row {
+    margin: calculateRem(60) 0;
+
+    &--emphasis {
+      margin-top: calculateRem(30);
+    }
+
+    &__title {
+      font-size: calculateRem(17);
+    }
+
+    &__paragraph {
+      font-size: calculateRem(15);
+
+      &--emphasis {
+        font-size: calculateRem(22);
+      }
+    }
+  }
+}
+
+.lenders-footer {
+  margin: calculateRem(20) 0 calculateRem(2);
+}
+
+.lenders-section {
+  background-color: $x-clr-primary;
+}
+
+.lenders {
+  padding: calculateRem(20) 0;
+  position: relative;
+
+  &__cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to right, $x-clr-primary, transparent 30%),
+      linear-gradient(to left, $x-clr-primary, transparent 30%);
+  }
+
+  &__image {
+    height: 30px;
+  }
+}
+
+.glide__slide {
+  text-align: center;
+}
+
+.glide__bullets {
+  bottom: 0;
+}
+
+.banner {
+  background-image: url("/images/stock/sitting-on-floor.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &--split {
+    background-image: none;
+    background-color: $x-clr-primary;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    &--split {
+      background-image: url("/user/themes/rfs-ltd/images/stock/family-on-bed.jpg");
+      background-size: 50% auto;
+      background-position: left;
+    }
+  }
+}
+
+.boxed {
+  background-color: $clr-white;
+  border-radius: calculateRem(3);
+  box-shadow: 0 1px 16px 0 rgba(100, 100, 100, 0);
+  margin: calculateRem(40) 0;
+  padding: calculateRem(20) calculateRem(30);
+
+  &__title {
+    font-size: calculateRem(21);
+    margin: 0 0 calculateRem(16);
+    color: $x-clr-primary;
+  }
+
+  &__sub-title {
+    font-size: calculateRem(14);
+    margin: 0 0 calculateRem(16);
+    color: $x-clr-primary;
+    font-weight: normal;
+  }
+
+  &__text {
+    font-size: calculateRem(14);
+    color: $x-clr-text;
+    margin: 0 0 calculateRem(16);
+  }
+
+  &__button {
+    margin-top: calculateRem(26);
+  }
+}
+
+.free-quote {
+  text-align: center;
+  color: $clr-white;
+  padding: calculateRem(70) calculateRem(20);
+
+  &__title {
+    font-size: calculateRem(30);
+    margin: 0 0 calculateRem(28);
+  }
+
+  &__text {
+    font-size: calculateRem(15);
+    margin: 0;
+  }
+
+  &__button {
+    margin-top: calculateRem(28);
+  }
+}
+
+// Cookie consent
+
+.cc-banner.cc-type-opt-in.cc-bottom {
+  padding-right: calculateRem(100);
+}

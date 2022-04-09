@@ -1,0 +1,108 @@
+.accordion-container {
+  border-top: calculateRem(3) solid $x-clr-border;
+  border-bottom: calculateRem(3) solid $x-clr-border;
+  padding-bottom: calculateRem(40);
+
+  &__title {
+    font-size: calculateRem(15);
+    color: $x-clr-primary;
+    text-align: center;
+    margin: calculateRem(32) 0;
+  }
+}
+
+.accordion {
+  &__heading {
+    margin: calculateRem(6) 0;
+  }
+
+  &__button {
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    border: calculateRem(2) solid #dedede;
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    border-radius: calculateRem(3);
+    justify-content: space-between;
+    font-size: calculateRem(13);
+    padding: calculateRem(8) calculateRem(12);
+    font-weight: bold;
+    color: $x-clr-primary;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.1875rem rgba($x-clr-secondary,.5);
+    }
+
+    &--active {
+      border-color: $x-clr-primary;
+      color: $clr-white;
+      background-color: $x-clr-primary;
+
+      .accordion__chevron {
+        stroke: rgba(255,255,255, .56);
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__chevron {
+    stroke: rgba(28,46,65, .45);
+    width: calculateRem(24);
+    height: calculateRem(24);
+  }
+
+  &__content {
+    padding: 0 calculateRem(2);
+    display: none;
+
+    &--visible {
+      display: block;
+    }
+  }
+
+  &__text {
+    color: $x-clr-text;
+    font-size: calculateRem(13);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .accordion-container {
+    border: 0;
+
+    &__title {
+      font-size: calculateRem(28);
+      margin: 0 0 calculateRem(48);
+    }
+  }
+
+  .accordion {
+    &__heading {
+      margin: calculateRem(10) 0;
+    }
+
+    &__button {
+      font-size: calculateRem(17);
+      padding: calculateRem(14) calculateRem(18);
+    }
+
+    &__chevron {
+      width: calculateRem(32);
+      height: calculateRem(32);
+    }
+
+    &__content {
+      padding: calculateRem(10) calculateRem(4);
+    }
+
+    &__text {
+      font-size: calculateRem(14);
+    }
+  }
+}

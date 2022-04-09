@@ -1,0 +1,114 @@
+.chat {
+  padding: 4rem 0;
+  background-color: #1C2E41;
+
+  &__container {
+    background-color: #1C2E41;
+    padding: 2rem;
+  }
+
+  &__tawk {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .chat {
+    background-color: #F3F4F5;
+  }
+}
+
+.mf-section {
+  text-align: center;
+  margin: 0 calculateRem(20) calculateRem(100) calculateRem(20);
+
+  &__icon {
+    fill: #1C2E41;
+    height: calculateRem(40);
+  }
+
+  &__header {
+    font-size: calculateRem(20);
+    max-width: calculateRem(300);
+    color: #1C2E41;
+    margin: 0 auto;
+  }
+
+  &--hero {
+    margin-top: calculateRem(100);
+
+    .mf-section__header {
+      max-width: calculateRem(350);
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mf-section {
+    margin: 8rem 0;
+
+    &__icon {
+      height: calculateRem(60)
+    }
+
+    &__header {
+      font-size: calculateRem(42);
+    }
+
+    &--hero {
+      margin: 10rem 0 0;
+    }
+  }
+}
+
+.mf-footer {
+  background-color: #F3F4F5;
+  padding: calculateRem(64) 0;
+
+  &__header {
+    color: #1C2E41;
+    font-size: calculateRem(26);
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mf-footer {
+    padding: calculateRem(120) 0;
+  }
+}
+
+.mf-foot-section {
+  text-align: center;
+  margin: 0 calculateRem(20) calculateRem(100) calculateRem(20);
+
+  &__icon {
+    fill: #1C2E41;
+    height: calculateRem(40);
+  }
+
+  &__header {
+    font-size: calculateRem(20);
+    color: #1C2E41;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .mf-foot-section {
+    margin: 0 calculateRem(20);
+
+    &__icon {
+      height: calculateRem(60)
+    }
+
+    &__header {
+      font-size: calculateRem(42);
+    }
+
+    &__text {
+      font-size: calculateRem(28);
+    }
+  }
+}
