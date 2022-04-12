@@ -355,9 +355,8 @@ export default function Layout(props) {
             </div>
             <div className="container">{heroContent}</div>
           </div>
+          <div className="container">{children}</div>
         </div>
-
-        {children}
       </main>
 
       <footer>

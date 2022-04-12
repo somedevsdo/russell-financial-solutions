@@ -39,13 +39,13 @@ export default function Mortgages() {
             <h2>Our Mortgage Services Include:</h2>
             <ul>
               <li>
-                <Link href="/mortgages/first-time-buyers">
-                  <a>First time buyers</a>
+                <Link href="/mortgages/planning your mortgage">
+                  <a>Planning your mortgage</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/remortgage">
-                  <a>Remortgages</a>
+                <Link href="/mortgages/first-time-buyers">
+                  <a>First time buyers</a>
                 </Link>
               </li>
               <li>
@@ -80,7 +80,12 @@ export default function Mortgages() {
               </li>
               <li>
                 <Link href="/mortgages/equity-release">
-                  <a>Equity Release</a>
+                  <a>Equity release</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/mortgages/self-employed-mortgages-in-rayleigh-essex">
+                  <a>Self employed mortgages in rayleigh</a>
                 </Link>
               </li>
             </ul>
