@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import CookieConsent from "react-cookie-consent";
 
 export default function Layout(props) {
   const { children, heroType, heroContent } = props;
@@ -38,54 +39,56 @@ export default function Layout(props) {
     };
   });
 
+  const mortgageLinks = [
+    {
+      title: "Planning Your Mortgage",
+      path: "/mortgages/planning-your-mortgage",
+    },
+    {
+      title: "First Time Buyers",
+      path: "/mortgages/first-time-buyers",
+    },
+    {
+      title: "Remortgages",
+      path: "/mortgages/remortgage",
+    },
+    {
+      title: "Moving Home",
+      path: "/mortgages/moving-home",
+    },
+    {
+      title: "Help to Buy",
+      path: "/mortgages/help-to-buy",
+    },
+    {
+      title: "Shared Ownership",
+      path: "/mortgages/shared-ownership",
+    },
+    {
+      title: "Buy to Let",
+      path: "/mortgages/buy-to-let",
+    },
+    {
+      title: "Commercial Mortgages",
+      path: "/mortgages/commercial-mortgages",
+    },
+    {
+      title: "Equity Release",
+      path: "/mortgages/equity-release",
+    },
+    {
+      title: "Self Employed Mortgages in Rayleigh",
+      path: "/mortgages/self-employed-mortgages-in-rayleigh-essex",
+    },
+  ];
+
   const menu = [
     { title: "Home", path: "/" },
     { title: "About us", path: "/about-us" },
     {
       title: "Mortgages",
       path: "/mortgages",
-      subNav: [
-        {
-          title: "Planning Your Mortgage",
-          path: "/mortgages/planning-your-mortgage",
-        },
-        {
-          title: "First Time Buyers",
-          path: "/mortgages/first-time-buyers",
-        },
-        {
-          title: "Remortgages",
-          path: "/mortgages/remortgages",
-        },
-        {
-          title: "Moving Home",
-          path: "/mortgages/moving-home",
-        },
-        {
-          title: "Help to Buy",
-          path: "/mortgages/help-to-buy",
-        },
-        {
-          title: "Shared Ownership",
-          path: "/mortgages/shared-ownership",
-        },
-        {
-          title: "Buy to Let",
-          path: "/mortgages/buy-to-let",
-        },
-        {
-          title: "Commercial Mortgages",
-          path: "/mortgages/commercial-mortgages",
-        },
-        {
-          title: "Equity Release",
-          path: "/mortgages/equity-release",
-        },
-        {
-          title: "Self Employed Mortgages in Rayleigh",
-          path: "/mortgages/self-employed-mortgages-in-rayleigh-essex",
-        },
-      ],
+      subNav: mortgageLinks,
     },
     {
       title: "Insurance",
@@ -252,6 +255,36 @@ export default function Layout(props) {
         </div>
       </header>
       <main id="body">
+        <CookieConsent
+          enableDeclineButton
+          declineButtonText="Decline"
+          style={{ background: "#000000" }}
+          declineButtonStyle={{ background: "#000000", color: "#ffffff" }}
+          buttonText="Allow cookies"
+          buttonStyle={{ background: "#29E458", fontWeight: "600" }}
+          onAccept={(acceptedByScrolling) => {
+            var Tawk_API = Tawk_API || {},
+              Tawk_LoadStart = new Date();
+            (function () {
+              var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+              s1.async = true;
+              s1.src = "https://embed.tawk.to/5e258b068e78b86ed8aa286b/default";
+              s1.charset = "UTF-8";
+              s1.setAttribute("crossorigin", "*");
+              s0.parentNode.insertBefore(s1, s0);
+            })();
+          }}
+        >
+          We use{" "}
+          <a
+            style={{ color: "#ffffff", opacity: "0.8" }}
+            href="https://www.cookiesandyou.com/"
+          >
+            cookies
+          </a>{" "}
+          to enhance the user experience and provide live chat!{" "}
+        </CookieConsent>
         <div className="wrapper padding">
           <div className={`hero hero--${heroType}`}>
             <div
@@ -282,7 +315,8 @@ export default function Layout(props) {
                             <Link href={item.path}>
                               <a
                                 className={`navigation__link ${
-                                  router.pathname === item.path
+                                  `/${router.pathname.split("/")[1]}` ===
+                                  item.path
                                     ? "navigation__link--active"
                                     : ""
                                 }`}
@@ -395,86 +429,15 @@ export default function Layout(props) {
                       </a>
                     </h3>
                     <ul className="footer__list">
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/planning-your-mortgage"
-                        >
-                          Planning Your Mortgage
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/first-time-buyers"
-                        >
-                          First Time Buyers
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/remortgage"
-                        >
-                          Remortgages
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/moving-home"
-                        >
-                          Moving Home
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/help-to-buy"
-                        >
-                          Help to Buy
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/shared-ownership"
-                        >
-                          Shared Ownership
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/buy-to-let"
-                        >
-                          Buy to Let
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/commercial-mortgages"
-                        >
-                          Commercial Mortgages
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/equity-release"
-                        >
-                          Equity Release
-                        </a>
-                      </li>
-                      <li className="footer__item">
-                        <a
-                          className="footer__sub-link"
-                          href="/mortgages/self-employed-mortgages-in-rayleigh-essex"
-                        >
-                          Self-Employed Mortgages in Rayleigh
-                        </a>
-                      </li>
+                      {mortgageLinks.map((item, index) => {
+                        return (
+                          <li key={index} className="footer__item">
+                            <Link href={item.path}>
+                              <a className="footer__sub-link">{item.title}</a>
+                            </Link>
+                          </li>
+                        );
+                      })}
                     </ul>
                   </li>
                 </ul>
