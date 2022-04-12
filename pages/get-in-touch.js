@@ -33,9 +33,9 @@ export default function GetInTouch() {
           name="contact"
           method="POST"
           data-netlify="true"
-          id="contact"
           className=" contact-form"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="form-field  ">
             <div className="form-label">
               <label className="inline">
