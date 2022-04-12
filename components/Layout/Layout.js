@@ -355,8 +355,12 @@ export default function Layout(props) {
             </div>
             <div className="container">{heroContent}</div>
           </div>
-          <div className="container">{children}</div>
         </div>
+        {heroType !== "home" ? (
+          <div className="container">{children}</div>
+        ) : (
+          children
+        )}
       </main>
 
       <footer>

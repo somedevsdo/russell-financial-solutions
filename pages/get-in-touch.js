@@ -46,7 +46,6 @@ export default function GetInTouch() {
               <div className="form-input-wrapper ">
                 <input
                   name="data[name]"
-                  value=""
                   type="text"
                   className=" "
                   autoComplete="on"
@@ -66,7 +65,6 @@ export default function GetInTouch() {
               <div className="form-input-wrapper ">
                 <input
                   name="data[email]"
-                  value=""
                   type="email"
                   className=" "
                   required="required"
@@ -81,12 +79,7 @@ export default function GetInTouch() {
             </div>
             <div className="form-data">
               <div className="form-input-wrapper ">
-                <input
-                  name="data[phone]"
-                  value=""
-                  type="number"
-                  className=" "
-                />
+                <input name="data[phone]" type="number" className=" " />
               </div>
             </div>
           </div>
@@ -101,7 +94,6 @@ export default function GetInTouch() {
               <div className="form-input-wrapper ">
                 <input
                   name="data[subject]"
-                  value=""
                   type="text"
                   className=" "
                   required="required"
