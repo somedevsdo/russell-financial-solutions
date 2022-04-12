@@ -123,13 +123,15 @@ export default function Layout(props) {
           <div className="container">
             <div className="top-row row">
               <div className="logo-container col-sm-12 col-lg-4">
-                <a href="/" title="Homepage">
-                  <img
-                    className="logo"
-                    src="/images/logo.svg"
-                    alt="Russell Financial Solutions logo"
-                  />
-                </a>
+                <Link href="/">
+                  <a title="Homepage">
+                    <img
+                      className="logo"
+                      src="/images/logo.svg"
+                      alt="Russell Financial Solutions logo"
+                    />
+                  </a>
+                </Link>
                 <div className="mobile-icon">
                   <button
                     onClick={toggleNavigation}
@@ -424,9 +426,9 @@ export default function Layout(props) {
                 <ul className="footer__list">
                   <li className="footer__item">
                     <h3 className="footer__title">
-                      <a className="footer__link" href="/mortgages">
-                        Mortgages
-                      </a>
+                      <Link href="/mortgages">
+                        <a className="footer__link">Mortgages</a>
+                      </Link>
                     </h3>
                     <ul className="footer__list">
                       {mortgageLinks.map((item, index) => {
@@ -477,9 +479,9 @@ export default function Layout(props) {
               </div>
               <div className="footer__section col-lg-3">
                 <h3 className="footer__title">
-                  <a className="footer__link" href="/get-in-touch/">
-                    Get in touch
-                  </a>
+                  <Link href="/get-in-touch/">
+                    <a className="footer__link">Get in touch</a>
+                  </Link>
                 </h3>
                 <p className="footer__text">
                   01268 330 880

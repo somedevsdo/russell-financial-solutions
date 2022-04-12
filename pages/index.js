@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import Glide from "@glidejs/glide";
 import Layout from "../components/Layout/Layout";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -52,9 +53,9 @@ export default function Home() {
       </div>
       <div className="row">
         <p className="animated fadeInUp delay-1s hero__buttons col">
-          <a href="/get-in-touch/" className="button">
-            Get in touch
-          </a>
+          <Link href="/get-in-touch/">
+            <a className="button">Get in touch</a>
+          </Link>
         </p>
       </div>
     </>
@@ -122,7 +123,7 @@ export default function Home() {
                 <div className="journey__content">
                   <h3 className="journey__title">Speak to us today</h3>
                   <div className="journey__text">
-                    Whether it's on live chat or face to face, one of our
+                    Whether it&apos;s on live chat or face to face, one of our
                     specialist team is ready to help.
                   </div>
                 </div>
@@ -320,9 +321,9 @@ export default function Home() {
                     you.
                   </div>
                   <div className="boxed__button">
-                    <a href="/get-in-touch/" className="button">
-                      Request a call back
-                    </a>
+                    <Link href="/get-in-touch/">
+                      <a className="button">Request a call back</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -363,9 +364,9 @@ export default function Home() {
                     stress-free.
                   </div>
                   <div className="free-quote__button">
-                    <a href="/get-in-touch/" className="button">
-                      Request a free quote
-                    </a>
+                    <Link href="/get-in-touch/">
+                      <a className="button">Request a free quote</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -402,8 +403,10 @@ export default function Home() {
                   placing the individual at the centre of everything we do.
                   Contact us today on 01268 330 880 to speak directly to a
                   member of the team, or{" "}
-                  <a href="/get-in-touch/">get in touch online</a> to arrange a
-                  call-back or appointment at a time to suit you.
+                  <Link href="/get-in-touch/">
+                    <a>get in touch online</a>
+                  </Link>{" "}
+                  to arrange a call-back or appointment at a time to suit you.
                 </p>
                 <hr className="text-row__divider" />
               </div>

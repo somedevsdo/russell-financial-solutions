@@ -49,35 +49,47 @@ export default function Mortgages() {
                 </Link>
               </li>
               <li>
-                <a href="/mortgages/remortgage">Remortgages</a>
+                <Link href="/mortgages/remortgage">
+                  <a>Remortgages</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/moving-home">Moving home</a>
+                <Link href="/mortgages/moving-home">
+                  <a>Moving home</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/help-to-buy">Help to buy</a>
+                <Link href="/mortgages/help-to-buy">
+                  <a>Help to buy</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/shared-ownership">Shared ownership</a>
+                <Link href="/mortgages/shared-ownership">
+                  <a>Shared ownership</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/buy-to-let">Buy to let</a>
+                <Link href="/mortgages/buy-to-let">
+                  <a>Buy to let</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/commercial-mortgages">
-                  Commercial mortgages
-                </a>
+                <Link href="/mortgages/commercial-mortgages">
+                  <a>Commercial mortgages</a>
+                </Link>
               </li>
               <li>
-                <a href="/mortgages/equity-release">Equity Release</a>
+                <Link href="/mortgages/equity-release">
+                  <a>Equity Release</a>
+                </Link>
               </li>
             </ul>
             <h2>Why Russell Financial Solutions?</h2>
             <p>
               Russell Financial Solutions offer expert guidance and help to take
               all of the stress out of finding the right mortgage for you. Not
-              only will we help you decide on the right type, we'll also help
-              you find the most suitable deal. We have access to a range of
+              only will we help you decide on the right type, we&apos;ll also
+              help you find the most suitable deal. We have access to a range of
               mortgages from across the market, so you can be confident the
               mortgage we recommend is right for you. We will arrange the survey
               and communicate with all parties involved such as estate agents
@@ -110,9 +122,9 @@ export default function Mortgages() {
               efficient, quick, and stress-free.
             </p>
             <p>
-              <a className="button" href="/get-in-touch/">
-                Get in touch
-              </a>
+              <Link href="/get-in-touch/">
+                <a className="button">Get in touch</a>
+              </Link>
             </p>
           </div>
         </div>
