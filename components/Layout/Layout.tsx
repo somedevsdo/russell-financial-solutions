@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import CookieConsent from "react-cookie-consent";
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import CookieConsent from 'react-cookie-consent';
+import Head from 'next/head';
 
 export default function Layout(props) {
   const { children, heroType, renderContainer = true, heroContent } = props;
@@ -32,94 +33,98 @@ export default function Layout(props) {
 
   useEffect(() => {
     // this probably needs to be debounced at some point
-    window.addEventListener("scroll", navLocation);
+    window.addEventListener('scroll', navLocation);
 
     return () => {
-      window.removeEventListener("scroll", navLocation);
+      window.removeEventListener('scroll', navLocation);
     };
   });
 
   const mortgageLinks = [
     {
-      title: "Planning Your Mortgage",
-      path: "/mortgages/planning-your-mortgage",
+      title: 'Planning Your Mortgage',
+      path: '/mortgages/planning-your-mortgage',
     },
     {
-      title: "First Time Buyers",
-      path: "/mortgages/first-time-buyers",
+      title: 'First Time Buyers',
+      path: '/mortgages/first-time-buyers',
     },
     {
-      title: "Remortgages",
-      path: "/mortgages/remortgage",
+      title: 'Remortgages',
+      path: '/mortgages/remortgage',
     },
     {
-      title: "Moving Home",
-      path: "/mortgages/moving-home",
+      title: 'Moving Home',
+      path: '/mortgages/moving-home',
     },
     {
-      title: "Help to Buy",
-      path: "/mortgages/help-to-buy",
+      title: 'Help to Buy',
+      path: '/mortgages/help-to-buy',
     },
     {
-      title: "Shared Ownership",
-      path: "/mortgages/shared-ownership",
+      title: 'Shared Ownership',
+      path: '/mortgages/shared-ownership',
     },
     {
-      title: "Buy to Let",
-      path: "/mortgages/buy-to-let",
+      title: 'Buy to Let',
+      path: '/mortgages/buy-to-let',
     },
     {
-      title: "Commercial Mortgages",
-      path: "/mortgages/commercial-mortgages",
+      title: 'Commercial Mortgages',
+      path: '/mortgages/commercial-mortgages',
     },
     {
-      title: "Equity Release",
-      path: "/mortgages/equity-release",
+      title: 'Equity Release',
+      path: '/mortgages/equity-release',
     },
     {
-      title: "Self Employed Mortgages in Rayleigh",
-      path: "/mortgages/self-employed-mortgages-in-rayleigh-essex",
+      title: 'Self Employed Mortgages in Rayleigh',
+      path: '/mortgages/self-employed-mortgages-in-rayleigh-essex',
     },
   ];
 
   const menu = [
-    { title: "Home", path: "/" },
-    { title: "About us", path: "/about-us" },
+    { title: 'Home', path: '/' },
+    { title: 'About us', path: '/about-us' },
     {
-      title: "Mortgages",
-      path: "/mortgages",
+      title: 'Mortgages',
+      path: '/mortgages',
       subNav: mortgageLinks,
     },
     {
-      title: "Insurance",
-      path: "/insurance",
+      title: 'Insurance',
+      path: '/insurance',
       subNav: [
         {
-          title: "Critical Illness Cover",
-          path: "/mortgages/critical-illness-cover",
+          title: 'Critical Illness Cover',
+          path: '/mortgages/critical-illness-cover',
         },
         {
-          title: "Income Protection Insurance",
-          path: "/mortgages/income-protection-insurance",
+          title: 'Income Protection Insurance',
+          path: '/mortgages/income-protection-insurance',
         },
         {
-          title: "Life Insurance",
-          path: "/mortgages/life-insurance",
+          title: 'Life Insurance',
+          path: '/mortgages/life-insurance',
         },
       ],
     },
-    { title: "Offers", path: "/offers" },
-    { title: "Get in touch", path: "/get-in-touch" },
+    { title: 'Offers', path: '/offers' },
+    { title: 'Get in touch', path: '/get-in-touch' },
   ];
 
   return (
     <>
+      <Head>
+        <title>Mortgage Advisers in Rayleigh | Russell Financial Solutions</title>
+        <meta
+          name="description"
+          content="Specialist mortgage and protection advice from your trusted mortgage brokers in Rayleigh, Essex. Contact us today on 01268 330 880."
+        />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <header>
-        <div
-          className={`top-row-container ${
-            lockNav && "top-row-container--scrolled"
-          }`}
-        >
+        <div className={`top-row-container ${lockNav && 'top-row-container--scrolled'}`}>
           <div className="container">
             <div className="top-row row">
               <div className="logo-container col-sm-12 col-lg-4">
@@ -135,9 +140,7 @@ export default function Layout(props) {
                 <div className="mobile-icon">
                   <button
                     onClick={toggleNavigation}
-                    className={`hamburger hamburger--slider ${
-                      navigationVisible && "is-active"
-                    }`}
+                    className={`hamburger hamburger--slider ${navigationVisible && 'is-active'}`}
                     type="button"
                   >
                     <span className="hamburger-box">
@@ -147,11 +150,7 @@ export default function Layout(props) {
                 </div>
               </div>
               <div className="details-container col-md-8">
-                <div
-                  className={`details animated faster ${
-                    hideTopDetails ? "fadeOut" : "fadeIn"
-                  }`}
-                >
+                <div className={`details animated faster ${hideTopDetails ? 'fadeOut' : 'fadeIn'}`}>
                   <div className="details__item">
                     <svg
                       className="details__icon"
@@ -171,9 +170,7 @@ export default function Layout(props) {
                       <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                     <div className="details__content">
-                      <div className="details__primary">
-                        Mon - Sat: 8am - 8pm
-                      </div>
+                      <div className="details__primary">Mon - Sat: 8am - 8pm</div>
                       <div className="details__primary">Sun: 10am - 5pm</div>
                     </div>
                   </div>
@@ -198,9 +195,7 @@ export default function Layout(props) {
                     <div className="details__content">
                       <address className="details__address">
                         <div className="details__primary">57 High Street</div>
-                        <div className="details__secondary">
-                          Rayleigh, Essex, SS67EW
-                        </div>
+                        <div className="details__secondary">Rayleigh, Essex, SS67EW</div>
                       </address>
                     </div>
                   </div>
@@ -260,47 +255,42 @@ export default function Layout(props) {
         <CookieConsent
           enableDeclineButton
           declineButtonText="Decline"
-          style={{ background: "#000000" }}
-          declineButtonStyle={{ background: "#000000", color: "#ffffff" }}
+          style={{ background: '#000000' }}
+          declineButtonStyle={{ background: '#000000', color: '#ffffff' }}
           buttonText="Allow cookies"
-          buttonStyle={{ background: "#29E458", fontWeight: "600" }}
+          buttonStyle={{ background: '#29E458', fontWeight: '600' }}
           onAccept={(acceptedByScrolling) => {
             var Tawk_API = Tawk_API || {},
               Tawk_LoadStart = new Date();
             (function () {
-              var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
+              var s1 = document.createElement('script'),
+                s0 = document.getElementsByTagName('script')[0];
               s1.async = true;
-              s1.src = "https://embed.tawk.to/5e258b068e78b86ed8aa286b/default";
-              s1.charset = "UTF-8";
-              s1.setAttribute("crossorigin", "*");
+              s1.src = 'https://embed.tawk.to/5e258b068e78b86ed8aa286b/default';
+              s1.charset = 'UTF-8';
+              s1.setAttribute('crossorigin', '*');
               s0.parentNode.insertBefore(s1, s0);
             })();
           }}
         >
-          We use{" "}
-          <a
-            style={{ color: "#ffffff", opacity: "0.8" }}
-            href="https://www.cookiesandyou.com/"
-          >
+          We use{' '}
+          <a style={{ color: '#ffffff', opacity: '0.8' }} href="https://www.cookiesandyou.com/">
             cookies
-          </a>{" "}
-          to enhance the user experience and provide live chat!{" "}
+          </a>{' '}
+          to enhance the user experience and provide live chat!{' '}
         </CookieConsent>
         <div className="wrapper padding">
           <div className={`hero hero--${heroType}`}>
             <div
-              className={`navigation-container ${
-                lockNav ? "navigation-container--scrolled" : ""
-              }`}
+              className={`navigation-container ${lockNav ? 'navigation-container--scrolled' : ''}`}
             >
               <div className="container">
                 <div className="row">
                   <nav
                     className={`navigation col ${
-                      navigationVisible ? "navigation--show-on-mobile" : ""
+                      navigationVisible ? 'navigation--show-on-mobile' : ''
                     }
-                      ${hideTopDetails ? "navigation--scrolled" : ""}
+                      ${hideTopDetails ? 'navigation--scrolled' : ''}
                     }`}
                   >
                     <ul className="navigation__list">
@@ -309,18 +299,15 @@ export default function Layout(props) {
                           <li
                             key={index}
                             className={`navigation__item ${
-                              item.subNav
-                                ? "navigation__item--has-children"
-                                : ""
+                              item.subNav ? 'navigation__item--has-children' : ''
                             }`}
                           >
                             <Link href={item.path}>
                               <a
                                 className={`navigation__link ${
-                                  `/${router.pathname.split("/")[1]}` ===
-                                  item.path
-                                    ? "navigation__link--active"
-                                    : ""
+                                  `/${router.pathname.split('/')[1]}` === item.path
+                                    ? 'navigation__link--active'
+                                    : ''
                                 }`}
                               >
                                 {item.title}
@@ -330,14 +317,8 @@ export default function Layout(props) {
                               <ul>
                                 {item.subNav.map((subItem, index) => {
                                   return (
-                                    <li
-                                      key={index}
-                                      className="navigation__item"
-                                    >
-                                      <a
-                                        className="navigation__link "
-                                        href={subItem.path}
-                                      >
+                                    <li key={index} className="navigation__item">
+                                      <a className="navigation__link " href={subItem.path}>
                                         {subItem.title}
                                       </a>
                                     </li>
@@ -355,11 +336,7 @@ export default function Layout(props) {
             </div>
             <div className="container">{heroContent}</div>
           </div>
-          {renderContainer ? (
-            <div className="container">{children}</div>
-          ) : (
-            children
-          )}
+          {renderContainer ? <div className="container">{children}</div> : children}
         </div>
       </main>
 
@@ -378,10 +355,7 @@ export default function Layout(props) {
                   <h3 className="footer__social-title">Connect with us</h3>
                   <ul className="footer__social-list">
                     <li className="footer__social-item">
-                      <a
-                        href="https://www.facebook.com/russellfinancialsolutions"
-                        title="Facebook"
-                      >
+                      <a href="https://www.facebook.com/russellfinancialsolutions" title="Facebook">
                         <svg
                           className="footer__social-icon"
                           version="1.1"
@@ -455,26 +429,17 @@ export default function Layout(props) {
                 </h3>
                 <ul className="footer__list">
                   <li className="footer__item">
-                    <a
-                      className="footer__sub-link"
-                      href="/insurance/critical-illness-cover"
-                    >
+                    <a className="footer__sub-link" href="/insurance/critical-illness-cover">
                       Critical Illness Cover
                     </a>
                   </li>
                   <li className="footer__item">
-                    <a
-                      className="footer__sub-link"
-                      href="/insurance/income-protection-insurance"
-                    >
+                    <a className="footer__sub-link" href="/insurance/income-protection-insurance">
                       Income Protection Insurance
                     </a>
                   </li>
                   <li className="footer__item">
-                    <a
-                      className="footer__sub-link"
-                      href="/insurance/life-insurance"
-                    >
+                    <a className="footer__sub-link" href="/insurance/life-insurance">
                       Life Insurance
                     </a>
                   </li>
@@ -505,29 +470,25 @@ export default function Layout(props) {
             <div className="row disclaimer">
               <div className="col">
                 <p className="disclaimer__main">
-                  * Russell Financial Solutions charge a fee on application
-                  stage subject to individual circumstances. We will confirm the
-                  amount before you choose to proceed.
+                  * Russell Financial Solutions charge a fee on application stage subject to
+                  individual circumstances. We will confirm the amount before you choose to proceed.
                 </p>
                 <p className="disclaimer__main">
-                  Your home may be repossessed if you do not keep up your
-                  repayments on your mortgage.
+                  Your home may be repossessed if you do not keep up your repayments on your
+                  mortgage.
                 </p>
                 <p className="disclaimer__sub">
-                  Russell Financial Solutions Ltd is an appointed Representative
-                  of Mortgage Intelligence Ltd which is authorised and regulated
-                  by the Financial Conduct Authority under number 305330, in
-                  respect of mortgage, insurance and consumer credit mediation
-                  activities only. Registered address: Russell Financial
-                  Solutions Ltd, 57 High Street, Rayleigh, Essex, SS67EW.
-                  Registered in England and Wales under registration number
-                  9415512.
+                  Russell Financial Solutions Ltd is an appointed Representative of Mortgage
+                  Intelligence Ltd which is authorised and regulated by the Financial Conduct
+                  Authority under number 305330, in respect of mortgage, insurance and consumer
+                  credit mediation activities only. Registered address: Russell Financial Solutions
+                  Ltd, 57 High Street, Rayleigh, Essex, SS67EW. Registered in England and Wales
+                  under registration number 9415512.
                 </p>
                 <p className="disclaimer__sub">
-                  We always aim to provide a high quality service to our
-                  customers. However, if you encounter any problems and we are
-                  unable to resolve them you can take your complaint to an
-                  independent Ombudsman. Our advice is covered under the{" "}
+                  We always aim to provide a high quality service to our customers. However, if you
+                  encounter any problems and we are unable to resolve them you can take your
+                  complaint to an independent Ombudsman. Our advice is covered under the{' '}
                   <a
                     className="disclaimer__sub-link"
                     href="https://www.financial-ombudsman.org.uk/consumers/how-to-complain"
@@ -537,16 +498,14 @@ export default function Layout(props) {
                   .
                 </p>
                 <p className="disclaimer__sub">
-                  This Russell Financial Solutions Ltd privacy notice provides
-                  information on how we and any of our subsidiaries, and any 3rd
-                  party providers collect, use, secure, transfer and share your
-                  information. Russell Financial Solutions Ltd are a mortgage
-                  and insurance intermediary firm and we will collect
-                  information directly from you. It should be noted that as part
-                  of the Financial Conduct Authority’s (FCA’s) regulatory
-                  process we are Appointed Representatives of Mortgage
-                  Intelligence Ltd and are required to enter your details onto
-                  their systems. Details of their Privacy Notice can be found at{" "}
+                  This Russell Financial Solutions Ltd privacy notice provides information on how we
+                  and any of our subsidiaries, and any 3rd party providers collect, use, secure,
+                  transfer and share your information. Russell Financial Solutions Ltd are a
+                  mortgage and insurance intermediary firm and we will collect information directly
+                  from you. It should be noted that as part of the Financial Conduct Authority’s
+                  (FCA’s) regulatory process we are Appointed Representatives of Mortgage
+                  Intelligence Ltd and are required to enter your details onto their systems.
+                  Details of their Privacy Notice can be found at{' '}
                   <a
                     className="disclaimer__sub-link"
                     href="http://www.experiencemi.co.uk/"
@@ -557,8 +516,7 @@ export default function Layout(props) {
                   .
                 </p>
                 <p className="disclaimer__sub">
-                  &copy; Russell Financial Solutions Ltd{" "}
-                  {new Date().getFullYear()} |{" "}
+                  &copy; Russell Financial Solutions Ltd {new Date().getFullYear()} |{' '}
                   <Link href="/privacy-notice">
                     <a className="disclaimer__sub-link">Privacy notice</a>
                   </Link>
