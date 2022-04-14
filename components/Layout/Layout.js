@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import CookieConsent from "react-cookie-consent";
 
 export default function Layout(props) {
-  const { children, heroType, heroContent } = props;
+  const { children, heroType, renderContainer = true, heroContent } = props;
 
   const router = useRouter();
 
@@ -355,12 +355,12 @@ export default function Layout(props) {
             </div>
             <div className="container">{heroContent}</div>
           </div>
+          {renderContainer ? (
+            <div className="container">{children}</div>
+          ) : (
+            children
+          )}
         </div>
-        {heroType !== "home" ? (
-          <div className="container">{children}</div>
-        ) : (
-          children
-        )}
       </main>
 
       <footer>
@@ -559,9 +559,9 @@ export default function Layout(props) {
                 <p className="disclaimer__sub">
                   &copy; Russell Financial Solutions Ltd{" "}
                   {new Date().getFullYear()} |{" "}
-                  <a className="disclaimer__sub-link" href="/privacy-notice">
-                    Privacy notice
-                  </a>
+                  <Link href="/privacy-notice">
+                    <a className="disclaimer__sub-link">Privacy notice</a>
+                  </Link>
                 </p>
               </div>
             </div>
