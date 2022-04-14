@@ -449,9 +449,9 @@ export default function Layout(props) {
               </div>
               <div className="footer__section col-lg-3">
                 <h3 className="footer__title">
-                  <a className="footer__link" href="/insurance/">
-                    Insurance
-                  </a>
+                  <Link href="/insurance/">
+                    <a className="footer__link">Insurance</a>
+                  </Link>
                 </h3>
                 <ul className="footer__list">
                   <li className="footer__item">
