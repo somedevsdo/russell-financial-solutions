@@ -116,7 +116,11 @@ export default function Mortgages() {
                 Police, NHS, Fire Service, Teachers and Armed Forces receive a
                 FREE no fee service as a thank you
               </strong>
-              . Find out more on our <a href="/offers">offers page</a>.
+              . Find out more on our{" "}
+              <Link href="/offers">
+                <a>offers page</a>
+              </Link>
+              .
             </p>
 
             <h2>Contact Our Mortgage Advisers Today</h2>
