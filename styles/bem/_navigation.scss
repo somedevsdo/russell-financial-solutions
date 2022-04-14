@@ -9,7 +9,7 @@
 .navigation {
   display: none;
   background-color: $x-clr-primary;
-  box-shadow: 0 10px 11px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 10px 11px 0 rgba(0, 0, 0, 0.5);
   transition: all 0.4s ease;
   width: 100%;
   max-height: calculateRem(400);
@@ -38,7 +38,6 @@
   }
 
   &__item--has-children {
-
     ul {
       margin-left: calculateRem(20);
       padding: 0;
@@ -115,7 +114,7 @@
         list-style-type: none;
         left: calculateRem(-65);
         border-bottom-width: 1px;
-        box-shadow: 0 2px 20px 0 rgba(0,0,0,.6);
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.6);
         border-radius: calculateRem(6);
         overflow: hidden;
 
@@ -131,7 +130,7 @@
           margin: 0;
           background-color: $x-clr-primary;
           border-bottom: 0;
-          transition: all .6s ease;
+          transition: all 0.6s ease;
 
           &:hover {
             border-bottom: 0;
@@ -170,7 +169,6 @@
       }
 
       .navigation__item--has-children {
-
         ul {
           .navigation__link {
             color: $clr-white;
