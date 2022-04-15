@@ -36,7 +36,7 @@
 
     &:focus {
       outline: 0;
-      box-shadow: 0 0 0 0.1875rem rgba($x-clr-secondary,.5);
+      box-shadow: 0 0 0 0.1875rem rgba($x-clr-secondary, 0.5);
     }
 
     &--active {
@@ -45,14 +45,14 @@
       background-color: $x-clr-primary;
 
       .accordion__chevron {
-        stroke: rgba(255,255,255, .56);
+        stroke: rgba(255, 255, 255, 0.56);
         transform: rotate(180deg);
       }
     }
   }
 
   &__chevron {
-    stroke: rgba(28,46,65, .45);
+    stroke: rgba(28, 46, 65, 0.45);
     width: calculateRem(24);
     height: calculateRem(24);
   }

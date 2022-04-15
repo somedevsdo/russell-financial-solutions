@@ -1,22 +1,19 @@
-import React from "react";
-import Head from "next/head";
-import Layout from "../components/Layout/Layout";
+import React from 'react';
+import Head from 'next/head';
+import Layout from '../components/Layout/Layout';
 
 export default function GetInTouch() {
   const heroContent = (
     <>
       <div className="row">
-        <h1 className="animated fadeInUp hero__title col-md-10">
-          Get in touch
-        </h1>
+        <h1 className="animated fadeInUp hero__title col-md-10">Get in touch</h1>
       </div>
       <div className="row">
         <div className="hero__section animated fadeInUp delay-1s col-md-8">
           <p className="hero__text">
-            There is no such thing as a silly question! Contact us today by
-            filling in the contact section below, live chat, phone or email. We
-            love to hear from you and we are available 7 days a week. Speak to
-            us today.
+            There is no such thing as a silly question! Contact us today by filling in the contact
+            section below, live chat, phone or email. We love to hear from you and we are available
+            7 days a week. Speak to us today.
           </p>
         </div>
       </div>
@@ -30,12 +27,7 @@ export default function GetInTouch() {
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
-            <form
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              className=" contact-form"
-            >
+            <form name="contact" method="POST" data-netlify="true" className=" contact-form">
               <input type="hidden" name="form-name" value="contact" />
               <div className="form-field  ">
                 <div className="form-label">
@@ -45,13 +37,7 @@ export default function GetInTouch() {
                 </div>
                 <div className="form-data">
                   <div className="form-input-wrapper ">
-                    <input
-                      name="name"
-                      type="text"
-                      className=" "
-                      autoComplete="on"
-                      required="required"
-                    />
+                    <input name="name" type="text" className=" " autoComplete="on" required />
                   </div>
                 </div>
               </div>
@@ -64,12 +50,7 @@ export default function GetInTouch() {
                 </div>
                 <div className="form-data">
                   <div className="form-input-wrapper ">
-                    <input
-                      name="email"
-                      type="email"
-                      className=" "
-                      required="required"
-                    />
+                    <input name="email" type="email" className=" " required />
                   </div>
                 </div>
               </div>
@@ -93,12 +74,7 @@ export default function GetInTouch() {
                 </div>
                 <div className="form-data">
                   <div className="form-input-wrapper ">
-                    <input
-                      name="subject"
-                      type="text"
-                      className=" "
-                      required="required"
-                    />
+                    <input name="subject" type="text" className=" " required />
                   </div>
                 </div>
               </div>
@@ -111,11 +87,7 @@ export default function GetInTouch() {
                 </div>
                 <div className="form-data">
                   <div className="form-textarea-wrapper  ">
-                    <textarea
-                      name="message"
-                      className="  "
-                      required="required"
-                    ></textarea>
+                    <textarea name="message" className="  " required></textarea>
                   </div>
                 </div>
               </div>

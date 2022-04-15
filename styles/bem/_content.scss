@@ -162,7 +162,7 @@
 }
 
 .banner {
-  background-image: url("/images/stock/sitting-on-floor.jpg");
+  background-image: url('/images/stock/sitting-on-floor.jpg');
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,7 +177,7 @@
 @media screen and (min-width: 992px) {
   .banner {
     &--split {
-      background-image: url("/images/stock/family-on-bed.jpg");
+      background-image: url('/images/stock/family-on-bed.jpg');
       background-size: 50% auto;
       background-position: left;
     }
