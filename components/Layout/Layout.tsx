@@ -324,10 +324,15 @@ export default function Layout(props: Props) {
                               <ul>
                                 {item.subNav.map((subItem, index) => {
                                   return (
-                                    <li key={index} className="navigation__item">
-                                      <a className="navigation__link " href={subItem.path}>
-                                        {subItem.title}
-                                      </a>
+                                    <li
+                                      key={index}
+                                      className="navigation__item"
+                                    >
+                                      <Link href={subItem.path}>
+                                        <a className="navigation__link ">
+                                          {subItem.title}
+                                        </a>
+                                      </Link>
                                     </li>
                                   );
                                 })}
