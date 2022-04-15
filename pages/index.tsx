@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import Head from 'next/head';
 import Glide from '@glidejs/glide';
 import Layout from '../components/Layout/Layout';
 import Link from 'next/link';
+import Review from '../components/Review/Review';
+import ReviewContainer from '../components/Review/ReviewContainer';
 
 export default function Home() {
   useEffect(() => {
@@ -381,121 +382,30 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="reviews-container scroll-animation animated">
-          <div className="container ">
-            <div className="row">
-              <div className="col">
-                <div className="reviews">
-                  <div className="glide glide-reviews">
-                    <div className="glide__track" data-glide-el="track">
-                      <ul className="glide__slides">
-                        <li className="glide__slide">
-                          <div className="reviews__item">
-                            <div className="reviews__name">Kerry Slater</div>
-                            <svg
-                              className="reviews__stars"
-                              viewBox="0 0 88 16"
-                              version="1.1"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <polygon points="8.5 12.75 3.50382536 15.3766445 4.45800981 9.81332223 0.416019611 5.87335555 6.00191268 5.06167777 8.5 0 10.9980873 5.06167777 16.5839804 5.87335555 12.5419902 9.81332223 13.4961746 15.3766445"></polygon>
-                              <polygon points="25.5 12.75 20.5038254 15.3766445 21.4580098 9.81332223 17.4160196 5.87335555 23.0019127 5.06167777 25.5 0 27.9980873 5.06167777 33.5839804 5.87335555 29.5419902 9.81332223 30.4961746 15.3766445"></polygon>
-                              <polygon points="43.5 12.75 38.5038254 15.3766445 39.4580098 9.81332223 35.4160196 5.87335555 41.0019127 5.06167777 43.5 0 45.9980873 5.06167777 51.5839804 5.87335555 47.5419902 9.81332223 48.4961746 15.3766445"></polygon>
-                              <polygon points="61.5 12.75 56.5038254 15.3766445 57.4580098 9.81332223 53.4160196 5.87335555 59.0019127 5.06167777 61.5 0 63.9980873 5.06167777 69.5839804 5.87335555 65.5419902 9.81332223 66.4961746 15.3766445"></polygon>
-                              <polygon points="79.5 12.75 74.5038254 15.3766445 75.4580098 9.81332223 71.4160196 5.87335555 77.0019127 5.06167777 79.5 0 81.9980873 5.06167777 87.5839804 5.87335555 83.5419902 9.81332223 84.4961746 15.3766445"></polygon>
-                            </svg>
-                            <div className="reviews__text">
-                              Very happy with the service we have received! Very quick replies to
-                              emails and proactive in helping with the whole process. Not just the
-                              mortgage service included but also life and home insurance services
-                              too! Many thanks to Jack Johnson and Glen for their help specifically,
-                              will continue to use them both in the future :)
-                            </div>
-                          </div>
-                        </li>
-                        <li className="glide__slide">
-                          <div className="reviews__item">
-                            <div className="reviews__name">Hayley Thirkettle</div>
-                            <svg
-                              className="reviews__stars"
-                              viewBox="0 0 88 16"
-                              version="1.1"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <polygon points="8.5 12.75 3.50382536 15.3766445 4.45800981 9.81332223 0.416019611 5.87335555 6.00191268 5.06167777 8.5 0 10.9980873 5.06167777 16.5839804 5.87335555 12.5419902 9.81332223 13.4961746 15.3766445"></polygon>
-                              <polygon points="25.5 12.75 20.5038254 15.3766445 21.4580098 9.81332223 17.4160196 5.87335555 23.0019127 5.06167777 25.5 0 27.9980873 5.06167777 33.5839804 5.87335555 29.5419902 9.81332223 30.4961746 15.3766445"></polygon>
-                              <polygon points="43.5 12.75 38.5038254 15.3766445 39.4580098 9.81332223 35.4160196 5.87335555 41.0019127 5.06167777 43.5 0 45.9980873 5.06167777 51.5839804 5.87335555 47.5419902 9.81332223 48.4961746 15.3766445"></polygon>
-                              <polygon points="61.5 12.75 56.5038254 15.3766445 57.4580098 9.81332223 53.4160196 5.87335555 59.0019127 5.06167777 61.5 0 63.9980873 5.06167777 69.5839804 5.87335555 65.5419902 9.81332223 66.4961746 15.3766445"></polygon>
-                              <polygon points="79.5 12.75 74.5038254 15.3766445 75.4580098 9.81332223 71.4160196 5.87335555 77.0019127 5.06167777 79.5 0 81.9980873 5.06167777 87.5839804 5.87335555 83.5419902 9.81332223 84.4961746 15.3766445"></polygon>
-                            </svg>
-                            <div className="reviews__text">
-                              From day 1 glen and his team showed commitment and such a professional
-                              standard. He made sure all my questions and concerns were dealt with
-                              promptly. He made getting my first mortgage / property a breeze...
-                              highly recommend.
-                            </div>
-                          </div>
-                        </li>
-                        <li className="glide__slide">
-                          <div className="reviews__item">
-                            <div className="reviews__name">Joanna Kurn</div>
-                            <svg
-                              className="reviews__stars"
-                              viewBox="0 0 88 16"
-                              version="1.1"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <polygon points="8.5 12.75 3.50382536 15.3766445 4.45800981 9.81332223 0.416019611 5.87335555 6.00191268 5.06167777 8.5 0 10.9980873 5.06167777 16.5839804 5.87335555 12.5419902 9.81332223 13.4961746 15.3766445"></polygon>
-                              <polygon points="25.5 12.75 20.5038254 15.3766445 21.4580098 9.81332223 17.4160196 5.87335555 23.0019127 5.06167777 25.5 0 27.9980873 5.06167777 33.5839804 5.87335555 29.5419902 9.81332223 30.4961746 15.3766445"></polygon>
-                              <polygon points="43.5 12.75 38.5038254 15.3766445 39.4580098 9.81332223 35.4160196 5.87335555 41.0019127 5.06167777 43.5 0 45.9980873 5.06167777 51.5839804 5.87335555 47.5419902 9.81332223 48.4961746 15.3766445"></polygon>
-                              <polygon points="61.5 12.75 56.5038254 15.3766445 57.4580098 9.81332223 53.4160196 5.87335555 59.0019127 5.06167777 61.5 0 63.9980873 5.06167777 69.5839804 5.87335555 65.5419902 9.81332223 66.4961746 15.3766445"></polygon>
-                              <polygon points="79.5 12.75 74.5038254 15.3766445 75.4580098 9.81332223 71.4160196 5.87335555 77.0019127 5.06167777 79.5 0 81.9980873 5.06167777 87.5839804 5.87335555 83.5419902 9.81332223 84.4961746 15.3766445"></polygon>
-                            </svg>
-                            <div className="reviews__text">
-                              Fantastic service. Found the best deal for our remortgage in very
-                              quick time. All went through with no problems. Helped with all the
-                              documents we needed and informed us when we had completed on the
-                              mortgage. Would highly recommend.
-                            </div>
-                          </div>
-                        </li>
-                        <li className="glide__slide">
-                          <div className="reviews__item">
-                            <div className="reviews__name">Paul Addison</div>
-                            <svg
-                              className="reviews__stars"
-                              viewBox="0 0 88 16"
-                              version="1.1"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <polygon points="8.5 12.75 3.50382536 15.3766445 4.45800981 9.81332223 0.416019611 5.87335555 6.00191268 5.06167777 8.5 0 10.9980873 5.06167777 16.5839804 5.87335555 12.5419902 9.81332223 13.4961746 15.3766445"></polygon>
-                              <polygon points="25.5 12.75 20.5038254 15.3766445 21.4580098 9.81332223 17.4160196 5.87335555 23.0019127 5.06167777 25.5 0 27.9980873 5.06167777 33.5839804 5.87335555 29.5419902 9.81332223 30.4961746 15.3766445"></polygon>
-                              <polygon points="43.5 12.75 38.5038254 15.3766445 39.4580098 9.81332223 35.4160196 5.87335555 41.0019127 5.06167777 43.5 0 45.9980873 5.06167777 51.5839804 5.87335555 47.5419902 9.81332223 48.4961746 15.3766445"></polygon>
-                              <polygon points="61.5 12.75 56.5038254 15.3766445 57.4580098 9.81332223 53.4160196 5.87335555 59.0019127 5.06167777 61.5 0 63.9980873 5.06167777 69.5839804 5.87335555 65.5419902 9.81332223 66.4961746 15.3766445"></polygon>
-                              <polygon points="79.5 12.75 74.5038254 15.3766445 75.4580098 9.81332223 71.4160196 5.87335555 77.0019127 5.06167777 79.5 0 81.9980873 5.06167777 87.5839804 5.87335555 83.5419902 9.81332223 84.4961746 15.3766445"></polygon>
-                            </svg>
-                            <div className="reviews__text">
-                              Brilliant Service, from the initial phone call with Glen, to emails
-                              with Maxine it was very easy and painless. Got a great new deal ,
-                              completed bang on time, and cannot find any fault at all. Would highly
-                              recommend, and will back when this deal is due to expire!!
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <a
-                    className="d-none d-lg-block reviews__link"
-                    href="https://www.google.com/maps/place/Russell+Financial+Solutions+Ltd/@51.7706023,0.0774928,9z/data=!4m7!3m6!1s0x47d8db6a4f562e3f:0x4e3715f3f5b9bda0!8m2!3d51.7719346!4d0.6378927!9m1!1b1"
-                  >
-                    See more reviews
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ReviewContainer>
+          <Review name="Kerry Slater">
+            Very happy with the service we have received! Very quick replies to emails and proactive
+            in helping with the whole process. Not just the mortgage service included but also life
+            and home insurance services too! Many thanks to Jack Johnson and Glen for their help
+            specifically, will continue to use them both in the future :)
+          </Review>
+          <Review name="Hayley Thirkettle">
+            From day 1 glen and his team showed commitment and such a professional standard. He made
+            sure all my questions and concerns were dealt with promptly. He made getting my first
+            mortgage / property a breeze... highly recommend.
+          </Review>
+          <Review name="Joanna Kurn">
+            Fantastic service. Found the best deal for our remortgage in very quick time. All went
+            through with no problems. Helped with all the documents we needed and informed us when
+            we had completed on the mortgage. Would highly recommend.
+          </Review>
+          <Review name="Paul Addison">
+            Brilliant Service, from the initial phone call with Glen, to emails with Maxine it was
+            very easy and painless. Got a great new deal , completed bang on time, and cannot find
+            any fault at all. Would highly recommend, and will back when this deal is due to
+            expire!!
+          </Review>
+        </ReviewContainer>
       </Layout>
     </>
   );
