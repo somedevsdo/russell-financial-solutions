@@ -4,7 +4,14 @@ import { useRouter } from 'next/router';
 import CookieConsent from 'react-cookie-consent';
 import Head from 'next/head';
 
-export default function Layout(props) {
+type Props = {
+  children: React.ReactNode;
+  heroType: string;
+  heroContent: React.ReactNode;
+  renderContainer?: boolean;
+};
+
+export default function Layout(props: Props) {
   const { children, heroType, renderContainer = true, heroContent } = props;
 
   const router = useRouter();
