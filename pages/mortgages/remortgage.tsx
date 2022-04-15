@@ -23,7 +23,7 @@ export default function Remortgage() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Get in touch</title>
+          <title>Remortgages</title>
         </Head>
         <div className="container">
           <div className="row justify-content-md-center">
