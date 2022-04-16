@@ -42,17 +42,17 @@ export default function Insurance() {
             <ul>
               <li>
                 <Link href="/insurance/critical-illness-cover">
-                  <a href="/insurance/critical-illness-cover">Critical Illness Cover</a>
+                  <a>Critical Illness Cover</a>
                 </Link>
               </li>
               <li>
                 <Link href="/insurance/income-protection-insurance">
-                  <a href="/insurance/income-protection-insurance">Income Protection Insurance</a>
+                  <a>Income Protection Insurance</a>
                 </Link>
               </li>
               <li>
                 <Link href="/insurance/life-insurance">
-                  <a href="/insurance/life-insurance">Life Insurance</a>
+                  <a>Life Insurance</a>
                 </Link>
               </li>
             </ul>
