@@ -23,7 +23,11 @@ export default function IncomeProtectionInsurance() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Income Protection Insurance</title>
+          <title>Life insurance | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="We are proud to offer personalised life insurance and protection services in Rayleigh for you and your family. Protect yourself and your family today."
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

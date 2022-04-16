@@ -23,7 +23,11 @@ export default function LifeInsurance() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Life Insurance</title>
+          <title>Income protection insurance | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="What is income protection insurance?. Income protection insurance (sometimes known as permanent health insurance) is a longterm insurance policy designed to help you if you can’t work because you’re ill or injured.It ensures you continue to receive a regular income until you retire or are able to return to work"
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

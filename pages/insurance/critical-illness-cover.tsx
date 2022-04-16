@@ -23,7 +23,11 @@ export default function CriticalIllnessCover() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Critical Illness Cover</title>
+          <title>Critical Illness Cover Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Trust our financial experts and advisers to source competitive life insurance, protection, and critical illness cover for you and your family in Rayleigh."
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

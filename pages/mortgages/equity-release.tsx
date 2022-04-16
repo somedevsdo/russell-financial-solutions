@@ -23,7 +23,11 @@ export default function EquityRelease() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Equity release</title>
+          <title>Equity release | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="At Russell Financial Solutions in Rayleigh, we specialise in helping over 55s access some of the money (or. equity) that is tied up in their home. Equity Release can also be used to purchase a home!. If you are over the age of 55 and a homeowner, you are probably eligible to take out an equity release. plan. Equity Rel"
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

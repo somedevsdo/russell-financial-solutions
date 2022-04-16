@@ -15,7 +15,11 @@ export default function Offers() {
     <>
       <Layout heroType="main" heroContent={heroContent}>
         <Head>
-          <title>Offers</title>
+          <title>Offers | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Free Mortgage and Protection Advice. Police, NHS, Fire Service, Teachers and Armed Forces receive a FREE no fee service as a thank you . We will source you the best mortgage tailored to you from a Full comprehensive range of Lenders in the UK and hand hold you through the process from start to finish."
+          ></meta>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">

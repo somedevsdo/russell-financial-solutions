@@ -23,7 +23,11 @@ export default function SelfEmployedMortgages() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Self-Employed Mortgages in Rayleigh</title>
+          <title>Self-Employed Mortgages in Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="If you are self employed and looking to secure a mortgage deal, it can often feel much more difficult than it should be. Whether you are a contractor, sole trader, or limited company director, here at Russell Financial Solutions, our mortgage advisers in Rayleigh are here to help."
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

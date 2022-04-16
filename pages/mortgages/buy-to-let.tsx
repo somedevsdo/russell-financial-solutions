@@ -23,7 +23,11 @@ export default function BuyToLet() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Buy to let</title>
+          <title>Buy to let advisors Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Russell Financial Solutions offer expert advice from our buy-to-let mortgage brokers, sourcing you competitive Buy to Let mortgage rates in Rayleigh."
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

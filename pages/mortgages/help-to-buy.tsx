@@ -23,7 +23,11 @@ export default function HelpToBuy() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Help to buy</title>
+          <title>Help to buy advisors Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Our help to buy experts in Rayleigh will give you our best advice so you can get on the property ladder faster, easier, and stress-free. Visit us today!"
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

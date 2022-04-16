@@ -23,7 +23,11 @@ export default function HelpToBuy() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Help to buy</title>
+          <title>Shared ownership mortgages | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Find competitive shared ownership mortgage rates with our experienced Rayleigh mortgage advisers today. We’ll help you get on the property ladder, call us today."
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

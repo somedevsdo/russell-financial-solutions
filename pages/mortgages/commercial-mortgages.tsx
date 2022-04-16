@@ -23,7 +23,11 @@ export default function CommercialMortgages() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Commercial Mortgages</title>
+          <title>Commercial Mortgages | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Find the best Commercial Mortgage Rates suited to you and your property with our competitive remortgaging services in Rayleigh. Call 01268 330 880 today!"
+          ></meta>
         </Head>
 
         <div className="row justify-content-md-center">

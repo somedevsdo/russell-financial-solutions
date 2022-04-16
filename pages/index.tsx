@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Glide from '@glidejs/glide';
 import Layout from '../components/Layout/Layout';
 import Link from 'next/link';
+import Head from 'next/head';
 import Review from '../components/Review/Review';
 import ReviewContainer from '../components/Review/ReviewContainer';
 
@@ -63,6 +64,13 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Mortgage Advisors in Rayleigh Essex | Russell Financial Solutions</title>
+        <meta
+          name="description"
+          content="Specialist mortgage and protection advice from your trusted mortgage brokers in Rayleigh, Essex. Contact us today on 01268 330 880."
+        ></meta>
+      </Head>
       <Layout heroType="home" renderContainer={false} heroContent={heroContent}>
         <div className="scroller-container">
           <div className="container">
