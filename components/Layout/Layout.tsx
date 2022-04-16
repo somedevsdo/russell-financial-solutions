@@ -90,6 +90,21 @@ export default function Layout(props: Props) {
     },
   ];
 
+  const insuranceLinks = [
+    {
+      title: 'Critical Illness Cover',
+      path: '/insurance/critical-illness-cover',
+    },
+    {
+      title: 'Income Protection Insurance',
+      path: '/insurance/income-protection-insurance',
+    },
+    {
+      title: 'Life Insurance',
+      path: '/insurance/life-insurance',
+    },
+  ];
+
   const menu = [
     { title: 'Home', path: '/' },
     { title: 'About us', path: '/about-us' },
@@ -101,20 +116,7 @@ export default function Layout(props: Props) {
     {
       title: 'Insurance',
       path: '/insurance',
-      subNav: [
-        {
-          title: 'Critical Illness Cover',
-          path: '/mortgages/critical-illness-cover',
-        },
-        {
-          title: 'Income Protection Insurance',
-          path: '/mortgages/income-protection-insurance',
-        },
-        {
-          title: 'Life Insurance',
-          path: '/mortgages/life-insurance',
-        },
-      ],
+      subNav: insuranceLinks,
     },
     { title: 'Offers', path: '/offers' },
     { title: 'Get in touch', path: '/get-in-touch' },
@@ -325,9 +327,9 @@ export default function Layout(props: Props) {
                                 {item.subNav.map((subItem, index) => {
                                   return (
                                     <li key={index} className="navigation__item">
-                                      <a className="navigation__link " href={subItem.path}>
-                                        {subItem.title}
-                                      </a>
+                                      <Link href={subItem.path}>
+                                        <a className="navigation__link ">{subItem.title}</a>
+                                      </Link>
                                     </li>
                                   );
                                 })}
@@ -435,21 +437,15 @@ export default function Layout(props: Props) {
                   </Link>
                 </h3>
                 <ul className="footer__list">
-                  <li className="footer__item">
-                    <a className="footer__sub-link" href="/insurance/critical-illness-cover">
-                      Critical Illness Cover
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a className="footer__sub-link" href="/insurance/income-protection-insurance">
-                      Income Protection Insurance
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a className="footer__sub-link" href="/insurance/life-insurance">
-                      Life Insurance
-                    </a>
-                  </li>
+                  {insuranceLinks.map((item, index) => {
+                    return (
+                      <li key={index} className="footer__item">
+                        <Link href={item.path}>
+                          <a className="footer__sub-link">{item.title}</a>
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
               <div className="footer__section col-lg-3">

@@ -30,7 +30,11 @@ export default function Mortgages() {
     <>
       <Layout heroType="main hero--mortgages" heroContent={heroContent}>
         <Head>
-          <title>Mortgages</title>
+          <title>Mortgages in Rayleigh, Essex | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Our Mortgage Services Include:. . First time buyers. Remortgages. Moving home. Help to buy. Shared ownership. Buy to let. Commercial mortgages. Equity Release. . Why Russell Financial Solutions?. Russell Financial Solutions offer expert guidance and help to take all of the stress out of finding the right. mortgage for "
+          />
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
@@ -111,7 +115,7 @@ export default function Mortgages() {
                 Police, NHS, Fire Service, Teachers and Armed Forces receive a FREE no fee service
                 as a thank you
               </strong>
-              . Find out more on our{" "}
+              . Find out more on our{' '}
               <Link href="/offers">
                 <a>offers page</a>
               </Link>

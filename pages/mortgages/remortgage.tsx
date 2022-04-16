@@ -23,7 +23,15 @@ export default function Remortgage() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Get in touch</title>
+          <title>Remortgage advisors in Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="Find the best remortgage rates suited to you and your property with our competitive remortgaging services in Rayleigh. Call 01268 330 880 today!"
+          ></meta>
+          <meta
+            name="keywords"
+            content="remortgaging, mortgage brokers, home remortgaging, mortgage advice, mortgage advisers"
+          ></meta>
         </Head>
         <div className="container">
           <div className="row justify-content-md-center">

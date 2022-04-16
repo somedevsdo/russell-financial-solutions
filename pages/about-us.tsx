@@ -15,7 +15,7 @@ export default function AboutUs() {
     <>
       <Layout heroType="main hero--mortgages" renderContainer={false} heroContent={heroContent}>
         <Head>
-          <title>About us</title>
+          <title>About us | Russell Financial Solutions</title>
         </Head>
         <div className="container">
           <div className="row justify-content-md-center">

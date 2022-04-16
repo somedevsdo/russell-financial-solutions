@@ -15,7 +15,7 @@ export default function Mortgages() {
     <>
       <Layout heroType="main" heroContent={heroContent}>
         <Head>
-          <title>Privacy Notice</title>
+          <title>Privacy Notice | Russell Financial Solutions</title>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">

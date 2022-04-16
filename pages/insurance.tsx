@@ -35,24 +35,28 @@ export default function Insurance() {
     <>
       <Layout heroType="main hero--insurance" heroContent={heroContent}>
         <Head>
-          <title>Insurance</title>
+          <title>Insurance cover in Rayleigh | Russell Financial Solutions</title>
+          <meta
+            name="description"
+            content="We are proud to offer personalised life insurance and protection services in Rayleigh for you and your family. Protect yourself and your family today."
+          ></meta>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
             <ul>
               <li>
                 <Link href="/insurance/critical-illness-cover">
-                  <a href="/insurance/critical-illness-cover">Critical Illness Cover</a>
+                  <a>Critical Illness Cover</a>
                 </Link>
               </li>
               <li>
                 <Link href="/insurance/income-protection-insurance">
-                  <a href="/insurance/income-protection-insurance">Income Protection Insurance</a>
+                  <a>Income Protection Insurance</a>
                 </Link>
               </li>
               <li>
                 <Link href="/insurance/life-insurance">
-                  <a href="/insurance/life-insurance">Life Insurance</a>
+                  <a>Life Insurance</a>
                 </Link>
               </li>
             </ul>
