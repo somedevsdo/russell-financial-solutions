@@ -126,6 +126,7 @@ export default function Layout(props: Props) {
       path: '/insurance',
       subNav: insuranceLinks,
     },
+    { title: 'Wills', path: '/wills' },
     { title: 'Offers', path: '/offers' },
     { title: 'Get in touch', path: '/get-in-touch' },
   ];
