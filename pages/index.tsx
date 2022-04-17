@@ -8,7 +8,6 @@ import ReviewContainer from '../components/Review/ReviewContainer';
 
 export default function Home() {
   useEffect(() => {
-    console.log(2);
     new Glide('.glide', {
       type: 'carousel',
       autoplay: 4000,
