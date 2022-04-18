@@ -7,7 +7,7 @@ export default function Wills() {
   const heroContent = (
     <>
       <div className="row">
-        <h1 className="animated fadeInUp hero__title col-md-10">Wills</h1>
+        <h1 className="animated fadeInUp hero__title col-md-10">Wills &amp; Trusts</h1>
       </div>
     </>
   );
@@ -15,7 +15,7 @@ export default function Wills() {
     <>
       <Layout heroType="main hero--insurance" heroContent={heroContent}>
         <Head>
-          <title>Wills in Rayleigh, Essex | Russell Financial Solutions</title>
+          <title>Wills &amp; Trusts in Rayleigh, Essex | Russell Financial Solutions</title>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
