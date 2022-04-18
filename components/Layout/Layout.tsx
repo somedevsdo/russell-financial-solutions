@@ -126,7 +126,7 @@ export default function Layout(props: Props) {
       path: '/insurance',
       subNav: insuranceLinks,
     },
-    { title: 'Wills', path: '/wills' },
+    { title: 'Wills & Trusts', path: '/wills-and-trusts' },
     { title: 'Offers', path: '/offers' },
     { title: 'Get in touch', path: '/get-in-touch' },
   ];
@@ -446,6 +446,11 @@ export default function Layout(props: Props) {
                     );
                   })}
                 </ul>
+                <h3 className="footer__title">
+                  <Link href="/wills-and-trusts/">
+                    <a className="footer__link">Wills &amp; Trusts</a>
+                  </Link>
+                </h3>
               </div>
               <div className="footer__section col-lg-3">
                 <h3 className="footer__title">
