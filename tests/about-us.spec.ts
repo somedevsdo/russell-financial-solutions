@@ -2,8 +2,8 @@ import percySnapshot from '@percy/playwright';
 import test from '@playwright/test';
 import { injectAxe, checkA11y } from 'axe-playwright';
 
-test('snapshot home page', async ({ page }) => {
-  await page.goto('http://localhost:3000', { waitUntil: 'networkidle' });
+test('snapshot about us', async ({ page }) => {
+  await page.goto('http://localhost:3000/about-us', { waitUntil: 'networkidle' });
 
   // stop animations from providing flaky results
   page.addStyleTag({ content: '* { animation-duration: 1ms !important }' });
@@ -16,5 +16,5 @@ test('snapshot home page', async ({ page }) => {
     axeOptions: undefined,
   });
 
-  await percySnapshot(page, 'Example Site');
+  await percySnapshot(page, 'About us');
 });
