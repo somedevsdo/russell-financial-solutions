@@ -121,7 +121,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="journey__content">
-                  <h3 className="journey__title">Speak to us today</h3>
+                  <h2 className="journey__title">Speak to us today</h2>
                   <div className="journey__text">
                     Whether it&apos;s on live chat or face to face, one of our specialist team is
                     ready to help.
