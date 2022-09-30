@@ -222,7 +222,7 @@ export default function AboutUs() {
 
             <div className="col-md-6 col-xl-4">
               <Profile
-                secondaryTitle="Wills &amp; Estate Planner"
+                secondaryTitle="Mortgage &amp; Protection Broker and Wills &amp; Estate Planner"
                 primaryTitle="Eleanor Levett-Millet CeMap"
                 modifier="eleanor"
               >
