@@ -30,10 +30,10 @@ export default function Mortgages() {
     <>
       <Layout heroType="main hero--mortgages" heroContent={heroContent}>
         <Head>
-          <title>Mortgages in Rayleigh, Essex | Russell Financial Solutions</title>
+          <title>Mortgages in Rayleigh, Essex | RFS Ltd</title>
           <meta
             name="description"
-            content="Our Mortgage Services Include:. . First time buyers. Remortgages. Moving home. Help to buy. Shared ownership. Buy to let. Commercial mortgages. Equity Release. . Why Russell Financial Solutions?. Russell Financial Solutions offer expert guidance and help to take all of the stress out of finding the right. mortgage for "
+            content="Our Mortgage Services Include:. . First time buyers. Remortgages. Moving home. Help to buy. Shared ownership. Buy to let. Commercial mortgages. Equity Release. . Why RFS Ltd?. RFS Ltd offer expert guidance and help to take all of the stress out of finding the right. mortgage for "
           />
         </Head>
         <div className="row justify-content-md-center">
@@ -91,16 +91,15 @@ export default function Mortgages() {
                 </Link>
               </li>
             </ul>
-            <h2>Why Russell Financial Solutions?</h2>
+            <h2>Why RFS Ltd?</h2>
             <p>
-              Russell Financial Solutions offer expert guidance and help to take all of the stress
-              out of finding the right mortgage for you. Not only will we help you decide on the
-              right type, we&apos;ll also help you find the most suitable deal. We have access to a
-              range of mortgages from across the market, so you can be confident the mortgage we
-              recommend is right for you. We will arrange the survey and communicate with all
-              parties involved such as estate agents and solicitors until you complete. It can be as
-              simple as you would like it to be, and we can take on as much or as little as you need
-              us to.
+              RFS Ltd offer expert guidance and help to take all of the stress out of finding the
+              right mortgage for you. Not only will we help you decide on the right type, we&apos;ll
+              also help you find the most suitable deal. We have access to a range of mortgages from
+              across the market, so you can be confident the mortgage we recommend is right for you.
+              We will arrange the survey and communicate with all parties involved such as estate
+              agents and solicitors until you complete. It can be as simple as you would like it to
+              be, and we can take on as much or as little as you need us to.
             </p>
             <h2>From First Homes to Remortgages</h2>
             <p>
@@ -124,9 +123,9 @@ export default function Mortgages() {
 
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

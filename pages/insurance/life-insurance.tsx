@@ -23,7 +23,7 @@ export default function IncomeProtectionInsurance() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Life insurance | Russell Financial Solutions</title>
+          <title>Life insurance | RFS Ltd</title>
           <meta
             name="description"
             content="We are proud to offer personalised life insurance and protection services in Rayleigh for you and your family. Protect yourself and your family today."
@@ -98,8 +98,7 @@ export default function IncomeProtectionInsurance() {
             </p>
             <h2>Contact Our Insurance Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and insurance advice.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
               <Link href="/get-in-touch/">

@@ -23,7 +23,7 @@ export default function Remortgage() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Remortgage advisors in Rayleigh | Russell Financial Solutions</title>
+          <title>Remortgage advisors in Rayleigh | RFS Ltd</title>
           <meta
             name="description"
             content="Find the best remortgage rates suited to you and your property with our competitive remortgaging services in Rayleigh. Call 01268 330 880 today!"
@@ -43,9 +43,9 @@ export default function Remortgage() {
                 built? Remortgaging your property allows you to take out a new mortgage on a home
                 you already own to replace your existing mortgage deal. There are plenty of
                 mortgages out there with differing rates and flexibility tailored to your needs, but
-                it can be difficult to find the best deal for you. At Russell Financial Solutions,
-                our mortgage brokers will help you find the best mortgage for you to switch to, with
-                minimal change-over fees and a competitive initial rate.
+                it can be difficult to find the best deal for you. At RFS Ltd, our mortgage brokers
+                will help you find the best mortgage for you to switch to, with minimal change-over
+                fees and a competitive initial rate.
               </p>
               <h2>Home Remortgaging Made Simple</h2>
               <p>
@@ -68,9 +68,9 @@ export default function Remortgage() {
               </p>
               <h2>Contact Our Mortgage Advisers Today</h2>
               <p>
-                Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-                and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-                right mortgage for you efficient, quick, and stress-free.
+                Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage
+                advice. Our specialist mortgage brokers are on hand to make finding the right
+                mortgage for you efficient, quick, and stress-free.
               </p>
               <p>
                 <Link href="/get-in-touch">

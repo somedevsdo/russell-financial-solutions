@@ -23,10 +23,10 @@ export default function PlanningYourMortgage() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Planning Your Mortgage | Russell Financial Solutions</title>
+          <title>Planning Your Mortgage | RFS Ltd</title>
           <meta
             name="description"
-            content="Am I prepared?. Before you apply for a mortgage there are a few thing you need to be aware of which the Experienced team at Russell Financial Solutions can help you with.It is always best to be well prepared before you make BIG decisions so contact us sooner rather than later to make sure you are ready and on the right"
+            content="Am I prepared?. Before you apply for a mortgage there are a few thing you need to be aware of which the Experienced team at RFS Ltd can help you with.It is always best to be well prepared before you make BIG decisions so contact us sooner rather than later to make sure you are ready and on the right"
           ></meta>
         </Head>
         <div className="row justify-content-md-center">
@@ -35,7 +35,7 @@ export default function PlanningYourMortgage() {
             <h2>Am I prepared?</h2>
             <p>
               Before you apply for a mortgage there are a few thing you need to be aware of which
-              the Experienced team at Russell Financial Solutions can help you with.
+              the Experienced team at RFS Ltd can help you with.
             </p>
             <p>
               It is always best to be well prepared before you make BIG decisions so contact us
@@ -49,15 +49,14 @@ export default function PlanningYourMortgage() {
               regularly meet the monthly repayments.
             </p>
             <p>
-              Our mortgage brokers at Russell Financial Solutions will help with your ‘affordability
-              assessment’. You can show us in confidence, all your financial outgoings and expenses.
-              We will then discuss with you the next steps to put you in the best position before
-              you apply.
+              Our mortgage brokers at RFS Ltd will help with your ‘affordability assessment’. You
+              can show us in confidence, all your financial outgoings and expenses. We will then
+              discuss with you the next steps to put you in the best position before you apply.
             </p>
             <p>
-              Do not give up if you have bad credit or a low score. Russell Financial Solutions have
-              specialists in this field that can look at the best options for you tailored to your
-              individual needs and circumstances. Speak to us today, were here to help.
+              Do not give up if you have bad credit or a low score. RFS Ltd have specialists in this
+              field that can look at the best options for you tailored to your individual needs and
+              circumstances. Speak to us today, were here to help.
             </p>
             <h2>What is a Mortgage?</h2>
             <p>
@@ -376,9 +375,9 @@ export default function PlanningYourMortgage() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

@@ -23,7 +23,7 @@ export default function LifeInsurance() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Income protection insurance | Russell Financial Solutions</title>
+          <title>Income protection insurance | RFS Ltd</title>
           <meta
             name="description"
             content="What is income protection insurance?. Income protection insurance (sometimes known as permanent health insurance) is a longterm insurance policy designed to help you if you can’t work because you’re ill or injured.It ensures you continue to receive a regular income until you retire or are able to return to work"
@@ -36,8 +36,8 @@ export default function LifeInsurance() {
             <p>
               Life insurance, also known as life cover, acts as a financial lifeline for your loved
               ones once you’re gone. There are many types of life insurance policies out there, but
-              at Russell Financial Solutions, we aim to make the process of choosing the right plan
-              for you as easy and stress-free as possible.
+              at RFS Ltd, we aim to make the process of choosing the right plan for you as easy and
+              stress-free as possible.
             </p>
             <p>
               Our skilled insurance advisers in Rayleigh will ensure that you choose the best life
@@ -96,9 +96,8 @@ export default function LifeInsurance() {
             </ul>
             <h2>Do you need Life Insurance?</h2>
             <p>
-              A life insurance policy from Russell Financial Solutions will help you provide for
-              your loved ones after you pass away. We recommend taking out a life insurance policy
-              if you have:
+              A life insurance policy from RFS Ltd will help you provide for your loved ones after
+              you pass away. We recommend taking out a life insurance policy if you have:
             </p>
             <ul>
               <li>dependants, e.g. school age children</li>
@@ -116,10 +115,10 @@ export default function LifeInsurance() {
             </p>
             <h2>Contact our Life Insurance Advisers today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and insurance advice. As one of the most reputable financial advisers in Essex, you
-              are guaranteed to receive advice you can trust, to ensure your family are provided for
-              in what can be an upsetting time.{' '}
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and insurance advice.
+              As one of the most reputable financial advisers in Essex, you are guaranteed to
+              receive advice you can trust, to ensure your family are provided for in what can be an
+              upsetting time.{' '}
             </p>
             <p>
               Give us a call on 01268 330 880, or use our{' '}
@@ -130,8 +129,7 @@ export default function LifeInsurance() {
             </p>
             <h2>Contact Our Insurance Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and insurance advice.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
               <Link href="/get-in-touch/">
