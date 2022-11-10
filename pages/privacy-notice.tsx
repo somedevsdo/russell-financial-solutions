@@ -15,26 +15,26 @@ export default function Mortgages() {
     <>
       <Layout heroType="main" heroContent={heroContent}>
         <Head>
-          <title>Privacy Notice | Russell Financial Solutions</title>
+          <title>Privacy Notice | RFS Ltd</title>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
             <p>
-              This Russell Financial Solutions Ltd privacy notice provides information on how we and
-              any of our subsidiaries, and any 3 rd party providers collect, use, secure, transfer
-              and share your information. Russell Financial Solutions Ltd are a mortgage and
-              insurance intermediary firm and we will collect information directly from you. It
-              should be noted that as part of the Financial Conduct Authority&apos;s (FCA&apos;s)
-              regulatory process we are Appointed Representatives of Mortgage Intelligence Ltd and
-              are required to enter your details onto their systems. Details of their Privacy Notice
-              can be found at <a href="https://www.experiencemi.co.uk">www.experiencemi.co.uk</a>.
+              This RFS Ltd privacy notice provides information on how we and any of our
+              subsidiaries, and any 3 rd party providers collect, use, secure, transfer and share
+              your information. RFS Ltd are a mortgage and insurance intermediary firm and we will
+              collect information directly from you. It should be noted that as part of the
+              Financial Conduct Authority&apos;s (FCA&apos;s) regulatory process we are Appointed
+              Representatives of Mortgage Intelligence Ltd and are required to enter your details
+              onto their systems. Details of their Privacy Notice can be found at{' '}
+              <a href="https://www.experiencemi.co.uk">www.experiencemi.co.uk</a>.
             </p>
             <p>
-              <strong>Russell Financial Solutions Ltd has its head office at: </strong>
+              <strong>RFS Ltd has its head office at: </strong>
               57 High Street, Rayleigh, Essex, SS6 7EW
             </p>
             <h2>1. Types of Information Collected.</h2>
-            <p>Russell Financial Solutions Ltd will typically collect but are not limited to:</p>
+            <p>RFS Ltd will typically collect but are not limited to:</p>
             <ul>
               <li>First Name </li>
               <li>Middle Name </li>
@@ -200,14 +200,10 @@ export default function Mortgages() {
                 regulations or requested by any judicial process or governmental agency having or
                 claiming jurisdiction over us or our affiliates.
               </li>
-              <li>
-                Complying with industry standards and Russell Financial Solutions Ltd policies
-              </li>
+              <li>Complying with industry standards and RFS Ltd policies</li>
             </ul>
             <h2>4. Lawful basis of processing</h2>
-            <p>
-              Russell Financial Solutions Ltd processes your information under the following basis:
-            </p>
+            <p>RFS Ltd processes your information under the following basis:</p>
             <ul>
               <li>
                 Performance of a contract: where you enter into a contract with us and we need to
@@ -292,8 +288,8 @@ export default function Mortgages() {
             <p>
               We only keep your information for as long as necessary. We generally keep personal
               information for 7 years after last contact with you. However, we reserve the right to
-              keep information for longer if we feel that this is in the legitimate interests of
-              Russell Financial Solutions Ltd.{' '}
+              keep information for longer if we feel that this is in the legitimate interests of RFS
+              Ltd.{' '}
             </p>
             <h2>7. International Data Transfers</h2>
             <p>
@@ -410,9 +406,9 @@ export default function Mortgages() {
               services.
             </p>
             <p>
-              Russell Financial Solutions Ltd operate a cookie policy. Some of our service providers
-              and partners may collect information about your online activities over time and across
-              third-party websites to customise and target our adverts.{' '}
+              RFS Ltd operate a cookie policy. Some of our service providers and partners may
+              collect information about your online activities over time and across third-party
+              websites to customise and target our adverts.{' '}
             </p>
             <p>You can at any time tell us not to send you marketing communications by:</p>
             <ul>
@@ -423,7 +419,7 @@ export default function Mortgages() {
                 unsubscribing via the “unsubscribe link” within the marketing e-mails you receive
                 from us, or
               </li>
-              <li>contacting Russell Financial Solutions Ltd as indicated below. </li>
+              <li>contacting RFS Ltd as indicated below. </li>
             </ul>
             <h2>15. Withdrawal of consent</h2>
             <p>
@@ -435,9 +431,7 @@ export default function Mortgages() {
               legitimate grounds, to the processing of your personal information.{' '}
             </p>
             <p>
-              <strong>
-                Russell Financial Solutions Ltd will apply your preferences going forward.{' '}
-              </strong>
+              <strong>RFS Ltd will apply your preferences going forward. </strong>
               Doing so will mean that you cannot take advantage of certain Russell Financial
               Solutions Ltd and affiliate products, services and promotions.{' '}
             </p>

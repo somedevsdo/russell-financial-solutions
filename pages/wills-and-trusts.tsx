@@ -15,7 +15,7 @@ export default function Wills() {
     <>
       <Layout heroType="main hero--insurance" heroContent={heroContent}>
         <Head>
-          <title>Wills &amp; Trusts in Rayleigh, Essex | Russell Financial Solutions</title>
+          <title>Wills &amp; Trusts in Rayleigh, Essex | RFS Ltd</title>
         </Head>
         <div className="row justify-content-md-center">
           <div className="col-md-8 page-content">
@@ -62,8 +62,8 @@ export default function Wills() {
               <li>Complex - £450</li>
             </ul>
             <p>
-              Russell Financial Solutions also offer a Will storage service, charged at £25. This is
-              great way to have an additional copy in case yours is misplaced.{' '}
+              RFS Ltd also offer a Will storage service, charged at £25. This is great way to have
+              an additional copy in case yours is misplaced.{' '}
             </p>
             <h2>Trusts</h2>
             <p>
@@ -72,10 +72,7 @@ export default function Wills() {
               distributed to beneficiaries over time. Trusts can also be useful way to reduce
               inheritance tax.
             </p>
-            <p>
-              Russell Financial Solutions work with the Society of Will Writers who can set up
-              trusts for you.
-            </p>
+            <p>RFS Ltd work with the Society of Will Writers who can set up trusts for you.</p>
             <h2>Additional things to consider</h2>
             <p>
               A Lasting Power of Attorney (LPA) can be used to manage your affairs and make

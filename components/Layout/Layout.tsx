@@ -134,7 +134,7 @@ export default function Layout(props: Props) {
   return (
     <>
       <Head>
-        <title>Mortgage Advisers in Rayleigh | Russell Financial Solutions</title>
+        <title>Mortgage Advisers in Rayleigh | RFS Ltd</title>
         <meta
           name="description"
           content="Specialist mortgage and protection advice from your trusted mortgage brokers in Rayleigh, Essex. Contact us today on 01268 330 880."
@@ -148,11 +148,7 @@ export default function Layout(props: Props) {
               <div className="logo-container col-sm-12 col-lg-4">
                 <Link href="/">
                   <a title="Homepage">
-                    <img
-                      className="logo"
-                      src="/images/logo.svg"
-                      alt="Russell Financial Solutions logo"
-                    />
+                    <img className="logo" src="/images/logo.svg" alt="RFS Ltd logo" />
                   </a>
                 </Link>
                 <div className="mobile-icon">
@@ -160,6 +156,7 @@ export default function Layout(props: Props) {
                     onClick={toggleNavigation}
                     className={`hamburger hamburger--slider ${navigationVisible && 'is-active'}`}
                     type="button"
+                    title="menu"
                   >
                     <span className="hamburger-box">
                       <span className="hamburger-inner"></span>
@@ -477,20 +474,20 @@ export default function Layout(props: Props) {
             <div className="row disclaimer">
               <div className="col">
                 <p className="disclaimer__main">
-                  * Russell Financial Solutions charge a fee on application stage subject to
-                  individual circumstances. We will confirm the amount before you choose to proceed.
+                  * RFS Ltd charge a fee on application stage subject to individual circumstances.
+                  We will confirm the amount before you choose to proceed.
                 </p>
                 <p className="disclaimer__main">
                   Your home may be repossessed if you do not keep up your repayments on your
                   mortgage.
                 </p>
                 <p className="disclaimer__sub">
-                  Russell Financial Solutions Ltd is an appointed Representative of Mortgage
-                  Intelligence Ltd which is authorised and regulated by the Financial Conduct
-                  Authority under number 305330, in respect of mortgage, insurance and consumer
-                  credit mediation activities only. Registered address: Russell Financial Solutions
-                  Ltd, 57 High Street, Rayleigh, Essex, SS67EW. Registered in England and Wales
-                  under registration number 9415512.
+                  RFS Ltd is a trading name of Russell Financial Solutions Ltd and an appointed
+                  Representative of Mortgage Intelligence Ltd which is authorised and regulated by
+                  the Financial Conduct Authority under number 305330, in respect of mortgage,
+                  insurance and consumer credit mediation activities only. Registered address:
+                  Russell Financial Solutions Ltd, 57 High Street, Rayleigh, Essex, SS67EW.
+                  Registered in England and Wales under registration number 9415512.
                 </p>
                 <p className="disclaimer__sub">
                   We always aim to provide a high quality service to our customers. However, if you
@@ -523,7 +520,7 @@ export default function Layout(props: Props) {
                   .
                 </p>
                 <p className="disclaimer__sub">
-                  &copy; Russell Financial Solutions Ltd {new Date().getFullYear()} |{' '}
+                  &copy; RFS Ltd {new Date().getFullYear()} |{' '}
                   <Link href="/privacy-notice">
                     <a className="disclaimer__sub-link">Privacy notice</a>
                   </Link>

@@ -23,7 +23,7 @@ export default function HelpToBuy() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Shared ownership mortgages | Russell Financial Solutions</title>
+          <title>Shared ownership mortgages | RFS Ltd</title>
           <meta
             name="description"
             content="Find competitive shared ownership mortgage rates with our experienced Rayleigh mortgage advisers today. We’ll help you get on the property ladder, call us today."
@@ -41,9 +41,9 @@ export default function HelpToBuy() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

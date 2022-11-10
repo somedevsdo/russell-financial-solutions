@@ -23,7 +23,7 @@ export default function FirstTimeBuyers() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>First time buyers | Russell Financial Solutions</title>
+          <title>First time buyers | RFS Ltd</title>
           <meta
             name="description"
             content="If you’re looking for a first time buyers’ mortgage, you need the personalised approach and competitive rates of our mortgage advisers in Rayleigh."
@@ -73,9 +73,9 @@ export default function FirstTimeBuyers() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

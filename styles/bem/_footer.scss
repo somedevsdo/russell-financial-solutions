@@ -8,7 +8,7 @@
   &__logo {
     display: block;
     margin: calculateRem(24) auto;
-    width: calculateRem(160);
+    height: 3rem;
   }
 
   &__social {
@@ -90,7 +90,7 @@
   .footer {
     &__logo {
       margin: calculateRem(28) 0;
-      width: calculateRem(200);
+      height: 4rem;
     }
 
     &__social {

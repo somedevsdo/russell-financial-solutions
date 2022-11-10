@@ -23,7 +23,7 @@ export default function CommercialMortgages() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Commercial Mortgages | Russell Financial Solutions</title>
+          <title>Commercial Mortgages | RFS Ltd</title>
           <meta
             name="description"
             content="Find the best Commercial Mortgage Rates suited to you and your property with our competitive remortgaging services in Rayleigh. Call 01268 330 880 today!"
@@ -41,9 +41,9 @@ export default function CommercialMortgages() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

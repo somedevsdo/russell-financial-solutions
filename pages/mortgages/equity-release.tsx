@@ -23,10 +23,10 @@ export default function EquityRelease() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Equity release | Russell Financial Solutions</title>
+          <title>Equity release | RFS Ltd</title>
           <meta
             name="description"
-            content="At Russell Financial Solutions in Rayleigh, we specialise in helping over 55s access some of the money (or. equity) that is tied up in their home. Equity Release can also be used to purchase a home!. If you are over the age of 55 and a homeowner, you are probably eligible to take out an equity release. plan. Equity Rel"
+            content="At RFS Ltd in Rayleigh, we specialise in helping over 55s access some of the money (or. equity) that is tied up in their home. Equity Release can also be used to purchase a home!. If you are over the age of 55 and a homeowner, you are probably eligible to take out an equity release. plan. Equity Rel"
           ></meta>
         </Head>
 
@@ -34,13 +34,13 @@ export default function EquityRelease() {
           <div className="col-md-8 page-content">
             <h1 className="news-page__title">Equity Release</h1>
             <p>
-              At Russell Financial Solutions in Rayleigh, we specialise in helping over 55s access
-              some of the money (or equity) that is tied up in their home. Equity Release can also
-              be used to purchase a home! If you are over the age of 55 and a homeowner, you are
-              probably eligible to take out an equity release plan. Equity Release is becoming a
-              common way for over 55s to release tax-free cash from their home to spend on many
-              things including home improvements, repaying debts, holidays and helping their
-              children on to the property ladder.
+              At RFS Ltd in Rayleigh, we specialise in helping over 55s access some of the money (or
+              equity) that is tied up in their home. Equity Release can also be used to purchase a
+              home! If you are over the age of 55 and a homeowner, you are probably eligible to take
+              out an equity release plan. Equity Release is becoming a common way for over 55s to
+              release tax-free cash from their home to spend on many things including home
+              improvements, repaying debts, holidays and helping their children on to the property
+              ladder.
             </p>
             <p>
               There are two types of equity release plans – Lifetime Mortgages and Home Reversions.
@@ -82,14 +82,14 @@ export default function EquityRelease() {
               Which Equity Release scheme is best for you will depend on your personal circumstances
               and your individual needs. It’s important to obtain expert advice from an authorised
               and qualified Equity Release advisers before proceeding with an Equity Release plan.
-              Russell Financial Solutions have helped many clients realise their dreams by pairing
-              them with a suitable plan.
+              RFS Ltd have helped many clients realise their dreams by pairing them with a suitable
+              plan.
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact Russell Financial Solutions in Rayleigh today to receive our expert guidance
-              and mortgage advice. Our specialist mortgage brokers are on hand to make finding the
-              right mortgage for you efficient, quick, and stress-free.
+              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
+              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              efficient, quick, and stress-free.
             </p>
             <p>
               <Link href="/get-in-touch/">

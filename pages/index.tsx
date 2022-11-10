@@ -47,8 +47,8 @@ export default function Home() {
           Professional Mortgage Advisors in Rayleigh and Essex
         </h1>
         <p className="animated fadeInUp delay-1s hero__text col-md-6">
-          Russell Financial Solutions Ltd is a Mortgage and Protection Advice company established in
-          2015, with over 30 years of combined financial experience within the team.
+          RFS Ltd is a Mortgage and Protection Advice company established in 2015, with over 30
+          years of combined financial experience within the team.
         </p>
       </div>
       <div className="row">
@@ -64,7 +64,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mortgage Advisors in Rayleigh Essex | Russell Financial Solutions</title>
+        <title>Mortgage Advisors in Rayleigh Essex | RFS Ltd</title>
         <meta
           name="description"
           content="Specialist mortgage and protection advice from your trusted mortgage brokers in Rayleigh, Essex. Contact us today on 01268 330 880."
@@ -292,7 +292,7 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="boxed">
-                  <h2 className="boxed__title">Why choose Russell Financial Solutions?</h2>
+                  <h2 className="boxed__title">Why choose RFS Ltd?</h2>
                   <h3 className="boxed__sub-title">
                     Our numerous positive reviews and client recommendations speak for themselves,
                     because we always aim to help navigate the often confusing world of applying for
