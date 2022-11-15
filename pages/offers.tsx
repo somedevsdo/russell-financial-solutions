@@ -15,7 +15,7 @@ export default function Offers() {
     <>
       <Layout heroType="main" heroContent={heroContent}>
         <Head>
-          <title>Offers | RFS Ltd</title>
+          <title>Offers | RFS</title>
           <meta
             name="description"
             content="Free Mortgage and Protection Advice. Police, NHS, Fire Service, Teachers and Armed Forces receive a FREE no fee service as a thank you . We will source you the best mortgage tailored to you from a Full comprehensive range of Lenders in the UK and hand hold you through the process from start to finish."
@@ -57,8 +57,8 @@ export default function Offers() {
               <img alt="" src="/images/offers/image001.jpg" />
             </p>
             <p>
-              Yes it&apos;s true! For all existing clients of RFS Ltd, you will receive a lifetime
-              FEES FREE service on any new purchases, remortgages, and also includes reviewing your
+              Yes it&apos;s true! For all existing clients of RFS, you will receive a lifetime FEES
+              FREE service on any new purchases, remortgages, and also includes reviewing your
               insurance and protection needs for Free.
             </p>
             <p>
