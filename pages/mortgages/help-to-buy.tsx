@@ -23,7 +23,7 @@ export default function HelpToBuy() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Help to buy advisors Rayleigh | RFS Ltd</title>
+          <title>Help to buy advisors Rayleigh | RFS</title>
           <meta
             name="description"
             content="Our help to buy experts in Rayleigh will give you our best advice so you can get on the property ladder faster, easier, and stress-free. Visit us today!"
@@ -58,8 +58,8 @@ export default function HelpToBuy() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
-              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              Contact RFS in Rayleigh today to receive our expert guidance and mortgage advice. Our
+              specialist mortgage brokers are on hand to make finding the right mortgage for you
               efficient, quick, and stress-free.
             </p>
             <p>

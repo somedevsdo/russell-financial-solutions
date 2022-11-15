@@ -23,7 +23,7 @@ export default function GetInTouch() {
     <>
       <Layout heroType="main" heroContent={heroContent}>
         <Head>
-          <title>Get in touch | RFS Ltd</title>
+          <title>Get in touch | RFS</title>
           <meta
             name="description"
             content="Get in touch with our team of specialist mortgage advisers in Rayleigh on 01268 330 880 today. We’ll source tailored advice and competitive rates for you."

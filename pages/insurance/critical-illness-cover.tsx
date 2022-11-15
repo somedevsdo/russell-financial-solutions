@@ -23,7 +23,7 @@ export default function CriticalIllnessCover() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Critical Illness Cover Rayleigh | RFS Ltd</title>
+          <title>Critical Illness Cover Rayleigh | RFS</title>
           <meta
             name="description"
             content="Trust our financial experts and advisers to source competitive life insurance, protection, and critical illness cover for you and your family in Rayleigh."
@@ -89,7 +89,7 @@ export default function CriticalIllnessCover() {
             </ul>
             <h2>Contact Our Insurance Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and insurance advice.
+              Contact RFS in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
               <Link href="/get-in-touch/">

@@ -23,7 +23,7 @@ export default function FirstTimeBuyers() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>First time buyers | RFS Ltd</title>
+          <title>First time buyers | RFS</title>
           <meta
             name="description"
             content="If you’re looking for a first time buyers’ mortgage, you need the personalised approach and competitive rates of our mortgage advisers in Rayleigh."
@@ -39,10 +39,9 @@ export default function FirstTimeBuyers() {
             <p>
               Buying your first property can be exciting as you get ready to start a new chapter in
               your life, but it is also filled with difficult and confusing choices. As a first time
-              buyer, the idea of a mortgage may seem daunting, and we don’t blame you. At Russell
-              Financial Solutions, we make securing your first time buyers’ mortgage a lot more
-              straight-forward, helping you fully understand your options and get on your way to
-              getting your first home.
+              buyer, the idea of a mortgage may seem daunting, and we don’t blame you. At RFS, we
+              make securing your first time buyers’ mortgage a lot more straight-forward, helping
+              you fully understand your options and get on your way to getting your first home.
             </p>
             <h2>Simplifying the Process</h2>
             <p>
@@ -73,8 +72,8 @@ export default function FirstTimeBuyers() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
-              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              Contact RFS in Rayleigh today to receive our expert guidance and mortgage advice. Our
+              specialist mortgage brokers are on hand to make finding the right mortgage for you
               efficient, quick, and stress-free.
             </p>
             <p>
