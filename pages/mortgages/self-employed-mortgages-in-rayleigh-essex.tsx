@@ -23,10 +23,10 @@ export default function SelfEmployedMortgages() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Self-Employed Mortgages in Rayleigh | RFS Ltd</title>
+          <title>Self-Employed Mortgages in Rayleigh | RFS</title>
           <meta
             name="description"
-            content="If you are self employed and looking to secure a mortgage deal, it can often feel much more difficult than it should be. Whether you are a contractor, sole trader, or limited company director, here at RFS Ltd, our mortgage advisers in Rayleigh are here to help."
+            content="If you are self employed and looking to secure a mortgage deal, it can often feel much more difficult than it should be. Whether you are a contractor, sole trader, or limited company director, here at RFS, our mortgage advisers in Rayleigh are here to help."
           ></meta>
         </Head>
 
@@ -35,8 +35,8 @@ export default function SelfEmployedMortgages() {
             <p>
               If you are self employed and looking to secure a mortgage deal, it can often feel much
               more difficult than it should be. Whether you are a contractor, sole trader, or
-              limited company director, here at RFS Ltd, our mortgage advisers in Rayleigh are here
-              to help.
+              limited company director, here at RFS, our mortgage advisers in Rayleigh are here to
+              help.
             </p>
             <p>
               There are around 4.8 million self-employed people in the UK, and many believe their
@@ -53,7 +53,7 @@ export default function SelfEmployedMortgages() {
               <Link href="/get-in-touch">
                 <a>contact</a>
               </Link>{' '}
-              RFS Ltd today.{' '}
+              RFS today.{' '}
             </p>
             <h2>Can I get a Mortgage if I’m Self-Employed?</h2>
             <p>
@@ -79,14 +79,13 @@ export default function SelfEmployedMortgages() {
               <li>Speak to an accountant and correct any mistakes on your credit report</li>
               <li>Make sure you are on the electoral roll</li>
               <li>
-                Be sure to speak to our experienced mortgage brokers at Russell Financial Solution
-                for the best advice
+                Be sure to speak to our experienced mortgage brokers at RFS for the best advice
               </li>
             </ul>
             <h2>Why Choose RFS?</h2>
             <p>
-              In 2019, the team at RFS Ltd helped over 360 clients achieve their mortgage goals. We
-              are highly experienced in providing mortgage advice that you can rely on.{' '}
+              In 2019, the team at RFS helped over 360 clients achieve their mortgage goals. We are
+              highly experienced in providing mortgage advice that you can rely on.{' '}
             </p>
             <p>
               Our friendly team will always take your personal circumstances into consideration,

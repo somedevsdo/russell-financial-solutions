@@ -23,10 +23,10 @@ export default function BuyToLet() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Buy to let advisors Rayleigh | RFS Ltd</title>
+          <title>Buy to let advisors Rayleigh | RFS</title>
           <meta
             name="description"
-            content="RFS Ltd offer expert advice from our buy-to-let mortgage brokers, sourcing you competitive Buy to Let mortgage rates in Rayleigh."
+            content="RFS offer expert advice from our buy-to-let mortgage brokers, sourcing you competitive Buy to Let mortgage rates in Rayleigh."
           ></meta>
         </Head>
 
@@ -50,8 +50,8 @@ export default function BuyToLet() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
-              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              Contact RFS in Rayleigh today to receive our expert guidance and mortgage advice. Our
+              specialist mortgage brokers are on hand to make finding the right mortgage for you
               efficient, quick, and stress-free.
             </p>
             <p>

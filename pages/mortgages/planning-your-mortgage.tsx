@@ -23,10 +23,10 @@ export default function PlanningYourMortgage() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Planning Your Mortgage | RFS Ltd</title>
+          <title>Planning Your Mortgage | RFS</title>
           <meta
             name="description"
-            content="Am I prepared?. Before you apply for a mortgage there are a few thing you need to be aware of which the Experienced team at RFS Ltd can help you with.It is always best to be well prepared before you make BIG decisions so contact us sooner rather than later to make sure you are ready and on the right"
+            content="Am I prepared?. Before you apply for a mortgage there are a few thing you need to be aware of which the Experienced team at RFS can help you with.It is always best to be well prepared before you make BIG decisions so contact us sooner rather than later to make sure you are ready and on the right"
           ></meta>
         </Head>
         <div className="row justify-content-md-center">
@@ -35,7 +35,7 @@ export default function PlanningYourMortgage() {
             <h2>Am I prepared?</h2>
             <p>
               Before you apply for a mortgage there are a few thing you need to be aware of which
-              the Experienced team at RFS Ltd can help you with.
+              the Experienced team at RFS can help you with.
             </p>
             <p>
               It is always best to be well prepared before you make BIG decisions so contact us
@@ -49,12 +49,12 @@ export default function PlanningYourMortgage() {
               regularly meet the monthly repayments.
             </p>
             <p>
-              Our mortgage brokers at RFS Ltd will help with your ‘affordability assessment’. You
-              can show us in confidence, all your financial outgoings and expenses. We will then
-              discuss with you the next steps to put you in the best position before you apply.
+              Our mortgage brokers at RFS will help with your ‘affordability assessment’. You can
+              show us in confidence, all your financial outgoings and expenses. We will then discuss
+              with you the next steps to put you in the best position before you apply.
             </p>
             <p>
-              Do not give up if you have bad credit or a low score. RFS Ltd have specialists in this
+              Do not give up if you have bad credit or a low score. RFS have specialists in this
               field that can look at the best options for you tailored to your individual needs and
               circumstances. Speak to us today, were here to help.
             </p>
@@ -66,8 +66,8 @@ export default function PlanningYourMortgage() {
             </p>
             <p>
               Many Banks and building societies are the lenders that will lend you the money subject
-              to your individual circumstances so you can achieve this goal and at Russell Financial
-              Solutions we have access to a Full range of comprehensive lenders to suit your needs.
+              to your individual circumstances so you can achieve this goal and at RFS we have
+              access to a Full range of comprehensive lenders to suit your needs.
             </p>
             <p>
               The mortgage will be paid back over a period of time to suit your needs and
@@ -243,21 +243,16 @@ export default function PlanningYourMortgage() {
             </p>
             <h3>Stamp duty and what is it?</h3>
             <p>
-              If you’re buying a home in England or Northern Ireland costing more than £125,000,
-              you’ll have to pay Stamp Duty Land Tax (SDLT) on your purchase.
-            </p>
-            <p>
-              This tax applies to both freehold and leasehold properties – whether you’re buying
-              outright or with a mortgage.
+              If you’re buying a home in England or Northern Ireland then you may have to pay Stamp
+              Duty Land Tax (SDLT) on your purchase. This tax applies to both freehold and leasehold
+              properties – whether you’re buying outright or with a mortgage.
             </p>
             <h3>Stamp Duty on second homes</h3>
             <p>
               Buyers of additional residential properties, such as second homes and buy-to-let
-              properties, will have to pay an extra 3% in Stamp Duty on top of current rates for
-              each band.
+              properties, may have to pay an extra Stamp Duty percentage on top of current rates for
+              each band. It doesn’t apply to caravans, mobile homes or houseboats.
             </p>
-            <p>This increased rate applies to properties bought for £40,000 or more.</p>
-            <p>It doesn’t apply to caravans, mobile homes or houseboats.</p>
             <p>
               If you buy a new main residence but there’s a delay in selling your previous main
               residence, you’ll have to pay the higher Stamp Duty rates as you’ll now own two
@@ -266,7 +261,8 @@ export default function PlanningYourMortgage() {
             <p>
               However, if you sell or give away your previous main home within 3 years of buying
               your new home you can apply for a refund of the higher SDLT rate part of your Stamp
-              Duty bill.
+              Duty bill. This can change so make sure you speak to a solicitor to confirm your own
+              situation.
             </p>
             <p>You can request a refund for the amount above the normal Stamp Duty rates if:</p>
             <ul>
@@ -277,6 +273,10 @@ export default function PlanningYourMortgage() {
                 comes later.
               </li>
             </ul>
+            <p>
+              This can change depending on the government’s rulings at anytime so make sure to speak
+              to a solicitor to confirm the current situation which relates to your position.
+            </p>
             <h3>What is Freehold?</h3>
             <p>The freeholder of a property owns it outright, including the land it’s built on.</p>
             <p>
@@ -375,8 +375,8 @@ export default function PlanningYourMortgage() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
-              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              Contact RFS in Rayleigh today to receive our expert guidance and mortgage advice. Our
+              specialist mortgage brokers are on hand to make finding the right mortgage for you
               efficient, quick, and stress-free.
             </p>
             <p>

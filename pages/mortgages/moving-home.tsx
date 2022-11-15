@@ -23,7 +23,7 @@ export default function MovingHome() {
     <>
       <Layout heroType="mortgages" heroContent={heroContent}>
         <Head>
-          <title>Moving Home | RFS Ltd</title>
+          <title>Moving Home | RFS</title>
           <meta
             name="description"
             content="Our Rayleigh mortgage advisers take the stress out of moving house by sourcing you competitive mortgage rates for your new property. Visit us today!"
@@ -41,8 +41,8 @@ export default function MovingHome() {
             </p>
             <h2>Contact Our Mortgage Advisers Today</h2>
             <p>
-              Contact RFS Ltd in Rayleigh today to receive our expert guidance and mortgage advice.
-              Our specialist mortgage brokers are on hand to make finding the right mortgage for you
+              Contact RFS in Rayleigh today to receive our expert guidance and mortgage advice. Our
+              specialist mortgage brokers are on hand to make finding the right mortgage for you
               efficient, quick, and stress-free.
             </p>
             <p>

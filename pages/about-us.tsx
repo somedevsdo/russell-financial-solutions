@@ -16,7 +16,7 @@ export default function AboutUs() {
     <>
       <Layout heroType="main hero--mortgages" renderContainer={false} heroContent={heroContent}>
         <Head>
-          <title>About us | RFS Ltd</title>
+          <title>About us | RFS</title>
         </Head>
         <div className="container">
           <div className="row justify-content-md-center">
@@ -27,8 +27,8 @@ export default function AboutUs() {
                   about and what we are into. We are real people just like you.
                 </p>
                 <p className="text-row__paragraph">
-                  Building a strong team is a key part of RFS Ltd&apos; vision. This then builds
-                  strong relationships with every one of our customers.
+                  Building a strong team is a key part of RFS&apos; vision. This then builds strong
+                  relationships with every one of our customers.
                 </p>
               </div>
             </div>
@@ -82,9 +82,9 @@ export default function AboutUs() {
                   needs.
                 </p>
                 <p>
-                  Before joining RFS Ltd, Darren worked for a mortgage compliance company managing
-                  over 100 brokers, ensuring they followed the correct rules and FCA regulations as
-                  well as setting a high bench mark for customer satisfaction.
+                  Before joining RFS, Darren worked for a mortgage compliance company managing over
+                  100 brokers, ensuring they followed the correct rules and FCA regulations as well
+                  as setting a high bench mark for customer satisfaction.
                 </p>
                 <p>
                   Outside of work, he plays for a local bowling team and regularly challenges his
@@ -221,7 +221,7 @@ export default function AboutUs() {
 
             <div className="col-md-6 col-xl-4">
               <Profile
-                secondaryTitle="Mortgage &amp; Protection Broker and Wills &amp; Estate Planner"
+                secondaryTitle="Mortgage Broker and Wills &amp; Estate Planner"
                 primaryTitle="Eleanor Levett-Millet CeMap"
                 modifier="eleanor"
               >
