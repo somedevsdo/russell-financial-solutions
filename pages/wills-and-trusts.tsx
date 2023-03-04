@@ -22,27 +22,37 @@ export default function Wills() {
             <h2>What is a Will?</h2>
             <p>
               A Will gives you peace of mind, knowing how all of your assets will be distributed and
-              who will benefit from them. There are some more reasons to make a Will that you may
-              not have thought about:
+              ensuring that loved ones are taken care of.
+            </p>
+            <p>
+              If you don’t make a Will, your estate will follow the rules of intestacy. An unmarried
+              partner would be entitled to nothing and, if you have no direct relatives, all of your
+              estate will go to the Crown.
+            </p>
+            <p>
+              A common misconception is that you don’t need a Will as you don’t have much to leave
+              but, a Will isn’t just about who you leave your estate to. A Will also covers
+              important things such as:
             </p>
             <ul>
-              <li>Appoint executors that you would like to manage and distribute your estate</li>
+              <li>Appointing executors who will manage and distribute your estate</li>
+              <li>
+                Appointing guardians to make sure your children are cared for (
+                <em>
+                  if both parents pass away, children could be put into the care system while the
+                  courts decide who is best to look after them
+                </em>
+                )
+              </li>
+              <li>Provide for vulnerable dependents</li>
               <li>
                 Minimise inheritance tax, meaning beneficiaries will receive more of your estate
               </li>
-              <li>
-                Appoint guardians to make sure your children are cared for and continue to have your
-                values instilled in them
-              </li>
-              <li>Provide for vulnerable dependents</li>
-              <li>Protect assets from unforeseen circumstances</li>
-              <li>Make complex arrangements, for example, setting up trusts</li>
+              <li>Make complex arrangements e.g. setting up trusts</li>
             </ul>
             <p>
-              If you don’t make a Will, your estate will follow the rules of intestacy. There is
-              also partial intestacy if some of your assets are not included in your Will. An
-              unmarried partner would be entitled to nothing and if you have no direct relatives,
-              all of your estate will go to the Crown.
+              Your Will can also be future proofed, to ensure it’s not voided if you get married and
+              make sure children born after you’ve written it are still provided for.
             </p>
             <p>
               A Will should be reviewed every 5 years or when your circumstances change, such as,
@@ -50,20 +60,14 @@ export default function Wills() {
             </p>
             <h2>What types of Wills are there?</h2>
             <p>
-              The two main types of Wills are single and mirror. A single Will is a for one person
-              and a Mirror is for a couple. You can also have more complex Wills, such as, setting
-              up trusts so that funds can be distributed over time or creating a right to occupy so
+              The two main types of Wills are single and mirror. A single Will is for one person and
+              a Mirror is for a couple. You can also have more complex Wills, such as, setting up
+              trusts so that funds can be distributed over time or creating a right to occupy so
               someone can continue to live in a property but not ultimately inherit it.
             </p>
-            <p>The costs for each type of Will are:</p>
-            <ul>
-              <li>Single - £175</li>
-              <li>Mirror - £275</li>
-              <li>Complex - £450</li>
-            </ul>
             <p>
-              RFS also offer a Will storage service, charged at £25. This is great way to have an
-              additional copy in case yours is misplaced.{' '}
+              RFS also offer a Will storage service. This is great way to have an additional copy in
+              case yours is misplaced.
             </p>
             <h2>Trusts</h2>
             <p>
@@ -72,32 +76,39 @@ export default function Wills() {
               distributed to beneficiaries over time. Trusts can also be useful way to reduce
               inheritance tax.
             </p>
-            <p>RFS work with the Society of Will Writers who can set up trusts for you.</p>
-            <h2>Additional things to consider</h2>
+            <h2>Lasting Power of Attorney</h2>
             <p>
-              A Lasting Power of Attorney (LPA) can be used to manage your affairs and make
-              decisions for you if you become unable to do so. There are two types of LPA; Health
-              and Welfare, Property and Financial Affairs.
+              A Lasting Power of Attorney (LPA) gives someone the authority to act on your behalf.
+              It’s a legal document that allows you to appoint someone you know and trust to make
+              decisions for you.
             </p>
-            <p>Various things can be done to reduce Inheritance Tax (IHT):</p>
+            <p>
+              It’s important to set these up early as, if you lose mental capacity, it’s too late
+              and someone you don’t know or trust may appointed.
+            </p>
+            <p>There are two types of LPA:</p>
             <ul>
               <li>
-                The Nil Rate Band (NRB) and the Residential Nil Rate Band (RNRB) are amounts that
-                are charged at 0% before the full 40% IHT. There are rules relating to these so it’s
-                important the opportunity to take advantage of these is not missed.
-              </li>
-              <li>Business Property Relief (BPR) and Agricultural Property Relief (APR).</li>
-              <li>
-                Making gifts in your lifetime to create Potentially Exempt Transfers (PETs) and
-                Chargeable Lifetime Transfers which can have a reduced or even nil charge of IHT,
-                depending on the length of time they were gifted before death.
+                <strong>
+                  <em>Health and Welfare</em>
+                </strong>{' '}
+                – You appoint an attorney who, when the time comes, can make decisions on your
+                medical treatment, care needs and residence.
               </li>
               <li>
-                Donating 10% of your estate to charity will reduce the IHT on your whole estate from
-                40% to 36%
+                <strong>
+                  <em>Property and Financial Affairs</em>
+                </strong>{' '}
+                – An attorney you appoint can make financial decisions for you, as well as, pay
+                bills, manage your property and speak with your bank and other financial
+                organisations..
               </li>
             </ul>
-
+            <p>
+              We prepare the forms for you and guide you through the signing process. They are then
+              submitted to the Office of the Public Guardian and we manage the process for you,
+              keeping you informed throughout.
+            </p>
             <h2>Why use an SWW Member</h2>
             <p>
               Members of The Society of Will Writers have undertaken intensive training and continue
@@ -105,8 +116,10 @@ export default function Wills() {
               SWW Code of Practice.
             </p>
             <p>
-              You can find out more information on The Society of Will Writers on their website:{' '}
-              <a href="http://www.willwriters.com">www.willwriters.com</a>.
+              You can find out more information on The Society of Will Writers on their website: 
+              <a href="https://www.willwriters.com/" title="Will Writers website">
+                www.willwriters.com.
+              </a>
             </p>
             <p>
               <Link href="/get-in-touch/">
