@@ -220,30 +220,6 @@ export default function AboutUs() {
             </div>
 
             <div className="col-md-6 col-xl-4">
-              <Profile
-                secondaryTitle="Mortgage Broker and Wills &amp; Estate Planner"
-                primaryTitle="Eleanor Levett-Millet CeMap"
-                modifier="eleanor"
-              >
-                <p>
-                  Eleanor started her career in financial services 10 years ago and has had roles at
-                  various banks, focussed on giving great customer service. Her main area was
-                  business and commercial clients but has always seen the individuals of the
-                  businesses as being the most important.
-                </p>
-                <p>
-                  In 2020 Eleanor saw the added spare time we were all given as an opportunity to
-                  change careers to something she is passionate about. In this time, she achieved
-                  her CeMap and Wills and Estate Planning qualifications.
-                </p>
-                <p>
-                  In her spare time, Eleanor enjoys travelling, getting outdoors for long walks and
-                  sewing indoors when the English bad weather prevents outside activities!
-                </p>
-              </Profile>
-            </div>
-
-            <div className="col-md-6 col-xl-4">
               <div className="person-card">
                 <Profile primaryTitle="Be part of our team..." modifier="join">
                   <p>
