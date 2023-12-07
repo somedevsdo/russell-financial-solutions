@@ -40,7 +40,7 @@ export default function Offers() {
             </p>
             <p>
               For more details, call us on 01268 330880 or{' '}
-              <Link href="/get-in-touch">
+              <Link legacyBehavior href="/get-in-touch">
                 <a>get in touch</a>
               </Link>
               .

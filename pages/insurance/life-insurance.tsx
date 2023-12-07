@@ -7,11 +7,11 @@ export default function IncomeProtectionInsurance() {
   const heroContent = (
     <>
       <div className="hero__breadcrumb col-md-10">
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="hero__breadcrumb-link">Home</a>
         </Link>
         /{' '}
-        <Link href="/insurance">
+        <Link legacyBehavior href="/insurance">
           <a className="hero__breadcrumb-link">
             <strong>Insurance</strong>
           </a>
@@ -44,7 +44,7 @@ export default function IncomeProtectionInsurance() {
               insurance policy to suit your individual needs, meaning your loved ones can be looked
               after financially when you’re no longer around. If you need advice and would like to
               speak to one of our insurance advisers in Rayleigh today, don’t hesitate to{' '}
-              <Link href="/get-in-touch">
+              <Link legacyBehavior href="/get-in-touch">
                 <a>get in touch</a>
               </Link>
               .
@@ -72,7 +72,7 @@ export default function IncomeProtectionInsurance() {
             <p>
               If you have any questions regarding pay-outs, expiry dates, or would like to know more
               about the different life insurance plans,{' '}
-              <Link href="/get-in-touch">
+              <Link legacyBehavior href="/get-in-touch">
                 <a>get in touch</a>
               </Link>{' '}
               today to arrange a consultation.{' '}
@@ -122,7 +122,7 @@ export default function IncomeProtectionInsurance() {
             </p>
             <p>
               Give us a call on 01268 330 880, or use our{' '}
-              <Link href="/get-in-touch">
+              <Link legacyBehavior href="/get-in-touch">
                 <a>online contact form</a>
               </Link>{' '}
               to book a consultation with one of our skilled insurance advisers.{' '}
@@ -132,7 +132,7 @@ export default function IncomeProtectionInsurance() {
               Contact RFS in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>

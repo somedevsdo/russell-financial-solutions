@@ -7,11 +7,11 @@ export default function LifeInsurance() {
   const heroContent = (
     <>
       <div className="hero__breadcrumb col-md-10">
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="hero__breadcrumb-link">Home</a>
         </Link>
         /{' '}
-        <Link href="/insurance">
+        <Link legacyBehavior href="/insurance">
           <a className="hero__breadcrumb-link">
             <strong>Insurance</strong>
           </a>
@@ -101,7 +101,7 @@ export default function LifeInsurance() {
               Contact RFS in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>

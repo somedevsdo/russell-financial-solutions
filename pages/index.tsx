@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <div className="row">
         <p className="animated fadeInUp delay-1s hero__buttons col">
-          <Link href="/get-in-touch/">
+          <Link legacyBehavior href="/get-in-touch/">
             <a className="button">Get in touch</a>
           </Link>
         </p>
@@ -304,7 +304,7 @@ export default function Home() {
                     solutions for you.
                   </div>
                   <div className="boxed__button">
-                    <Link href="/get-in-touch/">
+                    <Link legacyBehavior href="/get-in-touch/">
                       <a className="button">Request a call back</a>
                     </Link>
                   </div>
@@ -343,7 +343,7 @@ export default function Home() {
                     you efficient, quick, and stress-free.
                   </div>
                   <div className="free-quote__button">
-                    <Link href="/get-in-touch/">
+                    <Link legacyBehavior href="/get-in-touch/">
                       <a className="button">Request a free quote</a>
                     </Link>
                   </div>
@@ -378,7 +378,7 @@ export default function Home() {
                   We are responsible and helpful Rayleigh mortgage brokers, placing the individual
                   at the centre of everything we do. Contact us today on 01268 330 880 to speak
                   directly to a member of the team, or{' '}
-                  <Link href="/get-in-touch/">
+                  <Link legacyBehavior href="/get-in-touch/">
                     <a>get in touch online</a>
                   </Link>{' '}
                   to arrange a call-back or appointment at a time to suit you.

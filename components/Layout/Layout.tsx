@@ -145,10 +145,8 @@ export default function Layout(props: Props) {
           <div className="container">
             <div className="top-row row">
               <div className="logo-container col-sm-12 col-lg-4">
-                <Link href="/">
-                  <a title="Homepage">
-                    <img className="logo" src="/images/logo.svg" alt="RFS logo" />
-                  </a>
+                <Link href="/" title="Homepage" passHref>
+                  <img className="logo" src="/images/logo.svg" alt="RFS logo" />
                 </Link>
                 <div className="mobile-icon">
                   <button
@@ -306,24 +304,23 @@ export default function Layout(props: Props) {
                               item.subNav ? 'navigation__item--has-children' : ''
                             }`}
                           >
-                            <Link href={item.path}>
-                              <a
-                                className={`navigation__link ${
-                                  `/${router.pathname.split('/')[1]}` === item.path
-                                    ? 'navigation__link--active'
-                                    : ''
-                                }`}
-                              >
-                                {item.title}
-                              </a>
+                            <Link
+                              href={item.path}
+                              className={`navigation__link ${
+                                `/${router.pathname.split('/')[1]}` === item.path
+                                  ? 'navigation__link--active'
+                                  : ''
+                              }`}
+                            >
+                              {item.title}
                             </Link>
                             {item.subNav && (
                               <ul>
                                 {item.subNav.map((subItem, index) => {
                                   return (
                                     <li key={index} className="navigation__item">
-                                      <Link href={subItem.path}>
-                                        <a className="navigation__link ">{subItem.title}</a>
+                                      <Link href={subItem.path} className="navigation__link ">
+                                        {subItem.title}
                                       </Link>
                                     </li>
                                   );
@@ -403,16 +400,16 @@ export default function Layout(props: Props) {
                 <ul className="footer__list">
                   <li className="footer__item">
                     <h3 className="footer__title">
-                      <Link href="/mortgages">
-                        <a className="footer__link">Mortgages</a>
+                      <Link href="/mortgages" className="footer__link">
+                        Mortgages
                       </Link>
                     </h3>
                     <ul className="footer__list">
                       {mortgageLinks.map((item, index) => {
                         return (
                           <li key={index} className="footer__item">
-                            <Link href={item.path}>
-                              <a className="footer__sub-link">{item.title}</a>
+                            <Link href={item.path} className="footer__sub-link">
+                              {item.title}
                             </Link>
                           </li>
                         );
@@ -423,31 +420,31 @@ export default function Layout(props: Props) {
               </div>
               <div className="footer__section col-lg-3">
                 <h3 className="footer__title">
-                  <Link href="/insurance/">
-                    <a className="footer__link">Insurance</a>
+                  <Link href="/insurance/" className="footer__link">
+                    Insurance
                   </Link>
                 </h3>
                 <ul className="footer__list">
                   {insuranceLinks.map((item, index) => {
                     return (
                       <li key={index} className="footer__item">
-                        <Link href={item.path}>
-                          <a className="footer__sub-link">{item.title}</a>
+                        <Link href={item.path} className="footer__sub-link">
+                          {item.title}
                         </Link>
                       </li>
                     );
                   })}
                 </ul>
                 <h3 className="footer__title">
-                  <Link href="/wills-and-trusts/">
-                    <a className="footer__link">Wills &amp; Trusts</a>
+                  <Link href="/wills-and-trusts/" className="footer__link">
+                    Wills &amp; Trusts
                   </Link>
                 </h3>
               </div>
               <div className="footer__section col-lg-3">
                 <h3 className="footer__title">
-                  <Link href="/get-in-touch/">
-                    <a className="footer__link">Get in touch</a>
+                  <Link href="/get-in-touch/" className="footer__link">
+                    Get in touch
                   </Link>
                 </h3>
                 <p className="footer__text">
@@ -516,8 +513,8 @@ export default function Layout(props: Props) {
                 </p>
                 <p className="disclaimer__sub">
                   &copy; RFS {new Date().getFullYear()} |{' '}
-                  <Link href="/privacy-notice">
-                    <a className="disclaimer__sub-link">Privacy notice</a>
+                  <Link href="/privacy-notice" className="disclaimer__sub-link">
+                    Privacy notice
                   </Link>
                 </p>
               </div>
