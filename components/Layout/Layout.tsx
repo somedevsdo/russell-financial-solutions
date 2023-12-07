@@ -115,7 +115,6 @@ export default function Layout(props: Props) {
 
   const menu = [
     { title: 'Home', path: '/' },
-    { title: 'About us', path: '/about-us' },
     {
       title: 'Mortgages',
       path: '/mortgages',
