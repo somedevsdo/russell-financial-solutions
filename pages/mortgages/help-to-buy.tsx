@@ -7,11 +7,11 @@ export default function HelpToBuy() {
   const heroContent = (
     <>
       <div className="hero__breadcrumb col-md-10">
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="hero__breadcrumb-link">Home</a>
         </Link>
         /{' '}
-        <Link href="/mortgages">
+        <Link legacyBehavior href="/mortgages">
           <a className="hero__breadcrumb-link">
             <strong>Mortgages</strong>
           </a>
@@ -63,7 +63,7 @@ export default function HelpToBuy() {
               efficient, quick, and stress-free.
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>

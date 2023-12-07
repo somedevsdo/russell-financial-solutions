@@ -41,52 +41,52 @@ export default function Mortgages() {
             <h2>Our Mortgage Services Include:</h2>
             <ul>
               <li>
-                <Link href="/mortgages/planning your mortgage">
+                <Link legacyBehavior href="/mortgages/planning your mortgage">
                   <a>Planning your mortgage</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/first-time-buyers">
+                <Link legacyBehavior href="/mortgages/first-time-buyers">
                   <a>First time buyers</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/remortgage">
+                <Link legacyBehavior href="/mortgages/remortgage">
                   <a>Remortgages</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/moving-home">
+                <Link legacyBehavior href="/mortgages/moving-home">
                   <a>Moving home</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/help-to-buy">
+                <Link legacyBehavior href="/mortgages/help-to-buy">
                   <a>Help to buy</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/shared-ownership">
+                <Link legacyBehavior href="/mortgages/shared-ownership">
                   <a>Shared ownership</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/buy-to-let">
+                <Link legacyBehavior href="/mortgages/buy-to-let">
                   <a>Buy to let</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/commercial-mortgages">
+                <Link legacyBehavior href="/mortgages/commercial-mortgages">
                   <a>Commercial mortgages</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/equity-release">
+                <Link legacyBehavior href="/mortgages/equity-release">
                   <a>Equity release</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mortgages/self-employed-mortgages-in-rayleigh-essex">
+                <Link legacyBehavior href="/mortgages/self-employed-mortgages-in-rayleigh-essex">
                   <a>Self employed mortgages in rayleigh</a>
                 </Link>
               </li>
@@ -115,7 +115,7 @@ export default function Mortgages() {
                 as a thank you
               </strong>
               . Find out more on our{' '}
-              <Link href="/offers">
+              <Link legacyBehavior href="/offers">
                 <a>offers page</a>
               </Link>
               .
@@ -128,7 +128,7 @@ export default function Mortgages() {
               efficient, quick, and stress-free.
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>

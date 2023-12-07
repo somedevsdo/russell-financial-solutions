@@ -45,17 +45,17 @@ export default function Insurance() {
           <div className="col-md-8 page-content">
             <ul>
               <li>
-                <Link href="/insurance/critical-illness-cover">
+                <Link legacyBehavior href="/insurance/critical-illness-cover">
                   <a>Critical Illness Cover</a>
                 </Link>
               </li>
               <li>
-                <Link href="/insurance/income-protection-insurance">
+                <Link legacyBehavior href="/insurance/income-protection-insurance">
                   <a>Income Protection Insurance</a>
                 </Link>
               </li>
               <li>
-                <Link href="/insurance/life-insurance">
+                <Link legacyBehavior href="/insurance/life-insurance">
                   <a>Life Insurance</a>
                 </Link>
               </li>
@@ -65,7 +65,7 @@ export default function Insurance() {
               Contact RFS in Rayleigh today to receive our expert guidance and insurance advice.
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>

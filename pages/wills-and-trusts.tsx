@@ -122,7 +122,7 @@ export default function Wills() {
               </a>
             </p>
             <p>
-              <Link href="/get-in-touch/">
+              <Link legacyBehavior href="/get-in-touch/">
                 <a className="button">Get in touch</a>
               </Link>
             </p>
