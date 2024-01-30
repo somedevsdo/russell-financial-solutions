@@ -72,15 +72,16 @@ export default function Home() {
     });
 
     let jsonObject = Object.fromEntries(formData.entries());
-    console.log(jsonObject);
 
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(object).toString(),
-    }).then(() => {
-      postToAPI(jsonObject);
-    });
+    })
+      .then(() => {
+        postToAPI(jsonObject);
+      })
+      .catch(() => alert('Error sending the form'));
   };
 
   const heroContent = (
@@ -112,7 +113,13 @@ export default function Home() {
                   Enter your details below to download our free First Time Buyers guide, and one of
                   the team will be in touch.
                 </Dialog.Description>
-                <form onSubmit={handleSubmit} name="ftbg" method="POST" data-netlify="true">
+                <form
+                  onSubmit={handleSubmit}
+                  name="guide"
+                  method="POST"
+                  data-netlify="true"
+                  action="/"
+                >
                   <p>
                     <label>
                       <strong>Name:</strong> <br />
@@ -131,7 +138,7 @@ export default function Home() {
                       <input className="hero__input" type="text" name="telephone" required />
                     </label>
                   </p>
-                  <input type="hidden" name="form-name" value="ftbg"></input>
+                  <input type="hidden" name="form-name" value="guide"></input>
                   <p>
                     <button type="submit" className="button">
                       Download guide
