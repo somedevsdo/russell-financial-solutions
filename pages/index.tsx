@@ -47,20 +47,8 @@ export default function Home() {
   const postToAPI = async (data) => {
     const filename = 'rfs-ftb-guide.pdf';
     try {
-      const response = await fetch(`/api/file?filename=${filename}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(data).toString(),
-      });
-
-      if (!response.ok) {
-        throw new Error(response.statusText);
-      }
-
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = url;
+      link.href = '/ac50dd2a-fb34-4344-a9f9-d0838b307fd8/rfs-ftb-guide.pdf';
       link.setAttribute('download', filename);
       document.body.appendChild(link);
       link.click();
