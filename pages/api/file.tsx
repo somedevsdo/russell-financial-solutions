@@ -7,11 +7,13 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
   if (req.method !== 'POST') {
     res.status(400).json({ message: 'Not authorised' });
+    return;
     // throw new Error('Only POST requests allowed');
   }
 
   if (!req.body.name || !req.body.email || !req.body.telephone) {
     res.status(400).json({ message: 'Not authorised' });
+    return;
     // throw new Error('Not authorised');
   }
 
@@ -21,6 +23,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     //If no file name, return 404
     if (!filename) {
       res.status(404).json({ message: 'No file found' });
+      return;
       // throw new Error('No file found');
     }
 
@@ -30,6 +33,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     if (!existsSync(filePath)) {
       res.status(404).json({ message: 'Not found' });
+      return;
       // throw new Error('No file found');
     }
 
@@ -43,6 +47,7 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     //Conceal the exception, but log it
     console.warn(exception);
     res.status(500).json({ message: 'Internal Server Error' });
+    return;
     // throw new Error('Server Error');
   }
 };
