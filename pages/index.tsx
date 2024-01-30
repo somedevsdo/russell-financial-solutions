@@ -5,8 +5,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Review from '../components/Review/Review';
 import ReviewContainer from '../components/Review/ReviewContainer';
+import * as Dialog from '@radix-ui/react-dialog';
+import { Cross2Icon } from '@radix-ui/react-icons';
 
 export default function Home() {
+  const [open, setOpen] = React.useState(false);
   useEffect(() => {
     new Glide('.glide', {
       type: 'carousel',
@@ -40,6 +43,57 @@ export default function Home() {
     }).mount();
   });
 
+  // post to API for the file download
+  const postToAPI = async (data) => {
+    const filename = 'rfs-ftb-guide.pdf';
+    try {
+      const response = await fetch(`/api/file?filename=${filename}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(data).toString(),
+      });
+
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', filename);
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode.removeChild(link);
+      setOpen(false);
+    } catch (error) {
+      alert('There was an error retrieving the file');
+    }
+  };
+
+  // prevent default on form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const myForm = e.target;
+    const formData = new FormData(myForm);
+
+    let object = {};
+    formData.forEach((value, key) => {
+      object[key] = value;
+    });
+
+    let jsonObject = Object.fromEntries(formData.entries());
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(object).toString(),
+    }).then(() => {
+      postToAPI(jsonObject);
+    });
+  };
+
   const heroContent = (
     <>
       <div className="row">
@@ -53,8 +107,58 @@ export default function Home() {
       </div>
       <div className="row">
         <p className="animated fadeInUp delay-1s hero__buttons col">
+          <Dialog.Root open={open} onOpenChange={setOpen}>
+            <Dialog.Trigger asChild>
+              <button type="button" className="button">
+                First Time Buyers Guide
+              </button>
+            </Dialog.Trigger>
+            <Dialog.Portal>
+              <Dialog.Overlay className="DialogOverlay" />
+              <Dialog.Content className="DialogContent">
+                <Dialog.Title className="DialogTitle">
+                  Download First Time Buyers guide
+                </Dialog.Title>
+                <Dialog.Description className="DialogDescription">
+                  Enter your details below to download our free First Time Buyers guide, and one of
+                  the team will be in touch.
+                </Dialog.Description>
+                <form onSubmit={handleSubmit} name="file" method="POST" data-netlify="true">
+                  <p>
+                    <label>
+                      <strong>Name:</strong> <br />
+                      <input className="hero__input" type="text" name="name" required />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <strong>Email:</strong> <br />{' '}
+                      <input className="hero__input" type="email" name="email" required />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <strong>Telephone:</strong> <br />{' '}
+                      <input className="hero__input" type="text" name="telephone" required />
+                    </label>
+                  </p>
+                  <input type="hidden" name="form-name" value="file"></input>
+                  <p>
+                    <button type="submit" className="button">
+                      Download guide
+                    </button>
+                  </p>
+                </form>
+                <Dialog.Close asChild>
+                  <button className="IconButton" aria-label="Close">
+                    <Cross2Icon />
+                  </button>
+                </Dialog.Close>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
           <Link legacyBehavior href="/get-in-touch/">
-            <a className="button">Get in touch</a>
+            <a className="button button--secondary-light">Get in touch</a>
           </Link>
         </p>
       </div>
