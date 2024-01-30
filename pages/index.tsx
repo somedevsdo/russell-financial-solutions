@@ -45,7 +45,7 @@ export default function Home() {
 
   // post to API for the file download
   const postToAPI = async (data) => {
-    const filename = 'rfs-ftb-guide.pdf';
+    const filename = 'rfs-ftb-guide.pdfffff';
     try {
       const response = await fetch(`/api/file?filename=${filename}`, {
         method: 'POST',
@@ -84,6 +84,7 @@ export default function Home() {
     });
 
     let jsonObject = Object.fromEntries(formData.entries());
+    console.log(jsonObject);
 
     fetch('/', {
       method: 'POST',
@@ -123,7 +124,7 @@ export default function Home() {
                   Enter your details below to download our free First Time Buyers guide, and one of
                   the team will be in touch.
                 </Dialog.Description>
-                <form onSubmit={handleSubmit} name="file" method="POST" data-netlify="true">
+                <form onSubmit={handleSubmit} name="ftbg" method="POST" data-netlify="true">
                   <p>
                     <label>
                       <strong>Name:</strong> <br />
