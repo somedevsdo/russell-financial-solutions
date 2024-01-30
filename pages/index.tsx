@@ -45,7 +45,7 @@ export default function Home() {
 
   // post to API for the file download
   const postToAPI = async (data) => {
-    const filename = 'rfs-ftb-guide.pdfffff';
+    const filename = 'rfs-ftb-guide.pdf';
     try {
       const response = await fetch(`/api/file?filename=${filename}`, {
         method: 'POST',
@@ -143,7 +143,7 @@ export default function Home() {
                       <input className="hero__input" type="text" name="telephone" required />
                     </label>
                   </p>
-                  <input type="hidden" name="form-name" value="file"></input>
+                  <input type="hidden" name="form-name" value="ftbg"></input>
                   <p>
                     <button type="submit" className="button">
                       Download guide
