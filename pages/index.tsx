@@ -99,7 +99,7 @@ export default function Home() {
         <p className="animated fadeInUp delay-1s hero__buttons col">
           <Dialog.Root open={open} onOpenChange={setOpen}>
             <Dialog.Trigger asChild>
-              <button type="button" className="button">
+              <button type="button" className="button hero__button">
                 First Time Buyers Guide
               </button>
             </Dialog.Trigger>
@@ -154,7 +154,7 @@ export default function Home() {
             </Dialog.Portal>
           </Dialog.Root>
           <Link legacyBehavior href="/get-in-touch/">
-            <a className="button button--secondary-light">Get in touch</a>
+            <a className="button button--secondary-light hero__button">Get in touch</a>
           </Link>
         </p>
       </div>
