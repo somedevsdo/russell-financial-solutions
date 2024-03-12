@@ -283,29 +283,9 @@ export default function Home() {
             <div className="col-md-8">
               <div className="text-row text-row--emphasis">
                 <p className="text-row__paragraph text-row__paragraph--emphasis">
-                  Secured over <strong>£73 Million</strong> in mortgage lending and over{' '}
-                  <strong>600 mortgages and protection customers</strong> in 2021.
+                  Secured over <strong>£90 Million</strong> in mortgage lending and over{' '}
+                  <strong>700 mortgages and protection customers</strong> in 2023.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="awards-section">
-          <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="col">
-                <div className="award">
-                  <img
-                    className="award__logo"
-                    src="/images/sme-news.png"
-                    alt="SME News Finance Awards 2019"
-                  />
-                  <h2 className="award__header">
-                    Winners of Best Mortgage &amp; Protection Advisory Firm
-                  </h2>
-                  <h3 className="award__sub-header">Essex</h3>
-                </div>
               </div>
             </div>
           </div>
