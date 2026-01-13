@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "4.41.3",
     "@percy/cli": "^1.0.8",
     "@percy/playwright": "^1.0.2",
     "@playwright/test": "^1.21.1",
