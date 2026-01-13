@@ -283,8 +283,8 @@ export default function Home() {
             <div className="col-md-8">
               <div className="text-row text-row--emphasis">
                 <p className="text-row__paragraph text-row__paragraph--emphasis">
-                  Secured over <strong>£90 Million</strong> in mortgage lending and over{' '}
-                  <strong>700 mortgages and protection customers</strong> in 2023.
+                  Secured over <strong>£100 Million</strong> in mortgage lending and over{' '}
+                  <strong>700 mortgages and protection customers</strong> in 2025.
                 </p>
               </div>
             </div>
