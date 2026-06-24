@@ -188,7 +188,7 @@ export default function Home() {
         </div>
 
         <div className="youtube youtube--partner">
-          <h3 className="youtube__header">
+          <div className="youtube__header">
             <a
               className="youtube__link"
               href="https://www.checkmyfile.partners/9PBJBZ3/2CTPL/"
@@ -263,7 +263,7 @@ export default function Home() {
                 </span>
               </span>
             </a>
-          </h3>
+          </div>
         </div>
 
         <div className="container">
@@ -371,7 +371,7 @@ export default function Home() {
         </div>
 
         <div className="youtube">
-          <h3 className="youtube__header">
+          <div className="youtube__header">
             <a className="youtube__link" href="https://www.tiktok.com/@glenrussellproperty">
               <span className="youtube__content">
                 <span className="youtube__background">
@@ -391,7 +391,7 @@ export default function Home() {
                 </span>
               </span>
             </a>
-          </h3>
+          </div>
         </div>
 
         <div className="lenders-section">
