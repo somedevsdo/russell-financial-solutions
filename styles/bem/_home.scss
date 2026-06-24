@@ -28,7 +28,8 @@
     bottom: 0;
     left: 0;
     z-index: 1;
-    background: linear-gradient(to right, $x-clr-primary, transparent 30%),
+    background:
+      linear-gradient(to right, $x-clr-primary, transparent 30%),
       linear-gradient(to left, $x-clr-primary, transparent 30%);
   }
 }
@@ -185,6 +186,29 @@
 
     &::before {
       background: linear-gradient(to left, #fe2c55, rgba(255, 0, 0, 0));
+    }
+  }
+}
+
+.youtube--partner {
+  background-color: #ff80a7;
+
+  .youtube__link {
+    color: #060814;
+  }
+
+  .youtube__background {
+    background-color: #ff80a7;
+    gap: 1.5rem;
+  }
+
+  .youtube__content {
+    &::after {
+      background: linear-gradient(to right, #ff80a7, rgba(255, 128, 167, 0));
+    }
+
+    &::before {
+      background: linear-gradient(to left, #ff80a7, rgba(255, 128, 167, 0));
     }
   }
 }
